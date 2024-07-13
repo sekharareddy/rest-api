@@ -1,0 +1,261 @@
+const { Sequelize, DataTypes, Model, Op } = require("sequelize");
+const JOI = require("joi");
+const dayjs = require("dayjs");
+const sequelize = require("../utils/sequelize");
+
+class ApplicationAYClassSection extends Model {}
+
+ApplicationAYClassSection.init(
+  {
+    id: {
+      type: DataTypes.UUID,
+      defaultValue: Sequelize.UUIDV4,
+      allowNull: false,
+      primaryKey: true,
+    },
+    applicationAYClassSectionId: {
+      type: DataTypes.UUID,
+    },
+    userChildrenId: {
+      type: DataTypes.UUID,
+    },
+    applicationId: {
+      type: DataTypes.UUID,
+    },
+    academicYearId: {
+      type: DataTypes.UUID,
+    },
+    academicYearName: {
+      type: DataTypes.STRING,
+    },
+    classSectionId: {
+      type: DataTypes.UUID,
+    },
+    classSectionName: {
+      type: DataTypes.STRING,
+    },
+    classSectionId: {
+      type: DataTypes.UUID,
+    },
+    userId: {
+      type: DataTypes.UUID,
+    },
+    userFullName: {
+      type: DataTypes.STRING,
+    },
+    userChildrenId: {
+      type: DataTypes.UUID,
+    },
+    userChildName: {
+      type: DataTypes.STRING,
+    },
+    applicationId: {
+      type: DataTypes.UUID,
+    },
+    ApplicationAYClassSectionRollNumber: {
+      type: DataTypes.INTEGER,
+    },
+    tenantId: {
+      type: DataTypes.STRING,
+    },
+    appId: {
+      type: DataTypes.STRING,
+    },
+    orgId: {
+      type: DataTypes.UUID,
+    },
+  },
+  {
+    sequelize,
+    modelName: "ApplicationAYClassSection",
+    tableName: "vw_ApplicationAYClassSection",
+    schema: "dbo",
+    timestamps: false,
+    hasTrigger: true,
+    createdAt: false,
+    updatedAt: false,
+  },
+);
+
+class ApplicationAYClassSectionsSubjectExamGroups extends Model {}
+ApplicationAYClassSectionsSubjectExamGroups.init(
+  {
+    applicationAYClassSectionId: {
+      type: DataTypes.UUID,
+    },
+    examGroupId: {
+      type: DataTypes.UUID,
+    },
+    examGroupName: {
+      type: DataTypes.STRING,
+    },
+    examGroupFullName: {
+      type: DataTypes.STRING,
+    },
+    examGroupDisplayOrder: {
+      type: DataTypes.INTEGER,
+    },
+    examId: {
+      type: DataTypes.UUID,
+    },
+    examName: {
+      type: DataTypes.STRING,
+    },
+    examDisplayOrder: {
+      type: DataTypes.INTEGER,
+    },
+    tenantId: {
+      type: DataTypes.STRING,
+    },
+    appId: {
+      type: DataTypes.STRING,
+    },
+    orgId: {
+      type: DataTypes.UUID,
+    },
+  },
+  {
+    sequelize,
+    modelName: "ApplicationAYClassSectionsSubjectExamGroups",
+    tableName: "vw_ApplicationAYClassSectionsSubjectExamGroups",
+    schema: "dbo",
+    timestamps: false,
+    hasTrigger: true,
+    createdAt: false,
+    updatedAt: false,
+  },
+);
+class ApplicationAYClassSectionsSubjectExams extends Model {}
+ApplicationAYClassSectionsSubjectExams.init(
+  {
+    applicationAYClassSectionId: {
+      type: DataTypes.UUID,
+    },
+    examGroupId: {
+      type: DataTypes.UUID,
+    },
+    examId: {
+      type: DataTypes.UUID,
+    },
+    examName: {
+      type: DataTypes.STRING,
+    },
+    examDisplayOrder: {
+      type: DataTypes.INTEGER,
+    },
+  },
+  {
+    sequelize,
+    modelName: "ApplicationAYClassSectionsSubjectExams",
+    tableName: "vw_ApplicationAYClassSectionsSubjectExams",
+    schema: "dbo",
+    timestamps: false,
+    hasTrigger: true,
+    createdAt: false,
+    updatedAt: false,
+  },
+);
+ApplicationAYClassSectionsSubjectExamMarksReport.init(
+  {
+    applicationAYClassSectionId: {
+      type: DataTypes.UUID,
+    },
+    syllabusCombinationSubjectExamId: {
+      type: DataTypes.UUID,
+    },
+    subjectId: {
+      type: DataTypes.UUID,
+    },
+    subjectName: {
+      type: DataTypes.STRING,
+    },
+    weightage: {
+      type: DataTypes.INTEGER,
+    },
+    maxMarks: {
+      type: DataTypes.INTEGER,
+    },
+    marks: {
+      type: DataTypes.INTEGER,
+    },
+    weightedMarks: {
+      type: DataTypes.INTEGER,
+    },
+    tenantId: {
+      type: DataTypes.STRING,
+    },
+    appId: {
+      type: DataTypes.STRING,
+    },
+    orgId: {
+      type: DataTypes.UUID,
+    },
+  },
+  {
+    sequelize,
+    modelName: "ApplicationAYClassSectionsSubjectExamMarksReport",
+    tableName: "vw_aycsExamMarksReport",
+    schema: "dbo",
+    timestamps: false,
+    hasTrigger: true,
+    createdAt: false,
+    updatedAt: false,
+  },
+);
+
+ApplicationAYClassSectionsSubjectExamMarksReport.init(
+  {
+    applicationAYClassSectionId: {
+      type: DataTypes.UUID,
+    },
+    subjectId: {
+      type: DataTypes.UUID,
+    },
+    subjectName: {
+      type: DataTypes.STRING,
+    },
+    subjectDisplayOrder: {
+      type: DataTypes.STRING,
+    },
+  },
+  {
+    sequelize,
+    modelName: "ApplicationAYClassSectionsSubjectExamMarksReport",
+    tableName: "vw_aycsExamMarksReport",
+    schema: "dbo",
+    timestamps: false,
+    hasTrigger: true,
+    createdAt: false,
+    updatedAt: false,
+  },
+);
+
+const get = async (qry, user) => {
+  let userHasStaffRole = false;
+  user.userRoles.forEach((role) => {
+    if (
+      (role.roleName == "Staff" || role.roleName == "Support Staff")
+      && role.roleId == qry.roleId
+    ) {
+      userHasStaffRole = true;
+    }
+  });
+  console.log(`103: userHasStaffRole: ${userHasStaffRole}`);
+
+  const whereClause = {
+    tenantId: qry.tenantId,
+    appId: qry.appId,
+    orgId: qry.orgId,
+    classSectionId: qry.classSectionId,
+    academicYearId: qry.academicYearId,
+    applicationId: qry.applicationId,
+  };
+  return await ApplicationAYClassSectionsSubjectExamMarksReport.findAll({
+    where: whereClause,
+  });
+};
+
+module.exports = {
+  ApplicationAYClassSectionsSubjectExamMarksReport,
+  get,
+};

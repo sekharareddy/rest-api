@@ -1,0 +1,14 @@
+{
+  "existingData": {
+    "tenantId": "tenantId123",
+    "tenantName": "testTenant",
+    "createdBy": "testUser01",
+    "lastModifiedBy": "testUser02"
+  },
+  "updatedData": {
+    "tenantId": "tenantId123",
+    "tenantName": "updatedTestTenant",
+    "createdBy": "testUser01",
+    "lastModifiedBy": "testUser03"
+  }
+}

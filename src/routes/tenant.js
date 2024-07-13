@@ -1,0 +1,87 @@
+// Express related backend imports
+const express = require("express");
+
+const router = express.Router();
+const HttpStatus = require("../utils/http_codes.json");
+
+// Logger
+const logger = require("../utils/logger");
+
+// Response Handler
+const { QueryResult } = require("../utils/QueryResult");
+const { returnStateHandler } = require("../utils/returnStateHandler");
+
+// Entity model methods
+const {
+  get,
+  validate,
+  create,
+  update,
+  del,
+} = require("../models-mssql/Tenant");
+
+router.get(
+  "/",
+  async (req, res, next) => {
+    console.log("/tenant GET call");
+    try {
+      const data = await get(req.query.tenantId);
+      next(new QueryResult(data));
+    } catch (err) {
+      // err.status = HttpStatus.BAD_REQUEST;
+      next({ error: err, status: HttpStatus.BAD_REQUEST });
+    }
+  },
+  returnStateHandler,
+);
+
+router.post(
+  "/",
+  async (req, res, next) => {
+    console.log("/tenant POST call");
+    await validate(req.body)
+      .then(async (dataIn) => {
+        dataIn = await create(dataIn);
+        next(new QueryResult(dataIn));
+      })
+      .catch((err) => {
+        // err.status = HttpStatus.BAD_REQUEST;
+        next({ error: err, status: HttpStatus.BAD_REQUEST });
+      });
+  },
+  returnStateHandler,
+);
+
+router.delete(
+  "/:id",
+  async (req, res, next) => {
+    console.log("/api/tenant DELETE call", req.params.id);
+    await del(req.params.id)
+      .then((data) => {
+        next(new QueryResult(data));
+      })
+      .catch((err) => {
+        next({ error: err, status: HttpStatus.BAD_REQUEST }); // Added catch.
+      });
+  },
+  returnStateHandler,
+);
+
+router.put(
+  "/:id",
+  async (req, res, next) => {
+    console.log("/tenant PUT call", req.params.id);
+    await validate(req.body, req.params.id)
+      .then(async (dataIn) => {
+        dataIn = await update(dataIn);
+        next(new QueryResult(dataIn));
+      })
+      .catch((err) => {
+        // err.status = HttpStatus.BAD_REQUEST;
+        next({ error: err, status: HttpStatus.BAD_REQUEST });
+      });
+  },
+  returnStateHandler,
+);
+
+module.exports = router;

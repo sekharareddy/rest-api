@@ -1,0 +1,1507 @@
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\middleware\auth.js
+  107:129  error  Parsing error: Unexpected token .
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\models-mssql\AcademicYearHoliday.js
+   79:31  error    Expected to return a value at the end of async arrow function              consistent-return
+   82:12  error    Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   83:15  error    Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   86:20  error    Multiline support is limited to browsers supporting ES5 only               no-multi-str
+   99:42  error    Expected '!==' and instead saw '!='                                        eqeqeq
+   99:70  error    Expected '!==' and instead saw '!='                                        eqeqeq
+  115:12  warning  Redundant use of `await` on a return value                                 no-return-await
+  119:31  warning  Redundant use of `await` on a return value                                 no-return-await
+  127:1   error    This line has a length of 112. Maximum allowed is 100                      max-len
+  140:10  warning  Redundant use of `await` on a return value                                 no-return-await
+  142:1   error    This line has a length of 102. Maximum allowed is 100                      max-len
+  142:27  warning  Redundant use of `await` on a return value                                 no-return-await
+  148:22  error    Expected '===' and instead saw '=='                                        eqeqeq
+  148:53  error    Expected '===' and instead saw '=='                                        eqeqeq
+  149:22  error    Expected '===' and instead saw '=='                                        eqeqeq
+  162:10  warning  Redundant use of `await` on a return value                                 no-return-await
+  166:5   error    Assignment to property of function parameter 'dataIn'                      no-param-reassign
+  172:14  error    Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  172:58  error    Expected '===' and instead saw '=='                                        eqeqeq
+  173:5   error    Assignment to property of function parameter 'dataIn'                      no-param-reassign
+  175:14  error    Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  176:5   error    Assignment to property of function parameter 'dataIn'                      no-param-reassign
+  181:5   error    Expected an error object to be thrown                                      no-throw-literal
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\models-mssql\AcademicYears.js
+   83:10  warning  Redundant use of `await` on a return value             no-return-await
+   86:31  warning  Redundant use of `await` on a return value             no-return-await
+   90:1   error    This line has a length of 105. Maximum allowed is 100  max-len
+   93:1   error    This line has a length of 120. Maximum allowed is 100  max-len
+   94:1   error    This line has a length of 112. Maximum allowed is 100  max-len
+   95:10  warning  Redundant use of `await` on a return value             no-return-await
+   97:27  warning  Redundant use of `await` on a return value             no-return-await
+  102:24  error    Expected '===' and instead saw '=='                    eqeqeq
+  102:52  error    Expected '===' and instead saw '=='                    eqeqeq
+  103:28  error    Expected '===' and instead saw '=='                    eqeqeq
+  110:10  warning  Redundant use of `await` on a return value             no-return-await
+  118:21  error    Assignment to property of function parameter 'dataIn'  no-param-reassign
+  123:5   error    Expected an error object to be thrown                  no-throw-literal
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\models-mssql\Activity.js
+    1:38  error  'Op' is assigned a value but never used                no-unused-vars
+   70:31  error  'yr' is assigned a value but never used                no-unused-vars
+   70:42  error  'mth' is assigned a value but never used               no-unused-vars
+   70:54  error  'dt' is assigned a value but never used                no-unused-vars
+   71:11  error  'userId' is assigned a value but never used            no-unused-vars
+   72:7   error  'userHasStaffRole' is assigned a value but never used  no-unused-vars
+   74:23  error  Expected '===' and instead saw '=='                    eqeqeq
+   74:55  error  Expected '===' and instead saw '=='                    eqeqeq
+   79:9   error  'tdt' is assigned a value but never used               no-unused-vars
+  111:3   error  'modelData' is never reassigned. Use 'const' instead   prefer-const
+  210:23  error  Expected '===' and instead saw '=='                    eqeqeq
+  216:5   error  Unreachable code                                       no-unreachable
+  220:5   error  Assignment to property of function parameter 'dataIn'  no-param-reassign
+  222:5   error  Assignment to property of function parameter 'dataIn'  no-param-reassign
+  224:3   error  Assignment to property of function parameter 'dataIn'  no-param-reassign
+  230:5   error  Async arrow function expected no return value          consistent-return
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\models-mssql\ActivityDetail.js
+    1:38  error    'Op' is assigned a value but never used                no-unused-vars
+   75:11  error    'userId' is assigned a value but never used            no-unused-vars
+   76:7   error    'userHasStaffRole' is assigned a value but never used  no-unused-vars
+   78:23  error    Expected '===' and instead saw '=='                    eqeqeq
+   78:37  error    'qry' is not defined                                   no-undef
+   78:44  error    'qry' is not defined                                   no-undef
+   78:55  error    Expected '===' and instead saw '=='                    eqeqeq
+   95:3   error    'modelData' is never reassigned. Use 'const' instead   prefer-const
+   96:10  warning  Redundant use of `await` on a return value             no-return-await
+  102:1   error    This line has a length of 108. Maximum allowed is 100  max-len
+  103:1   error    This line has a length of 112. Maximum allowed is 100  max-len
+  104:1   error    This line has a length of 136. Maximum allowed is 100  max-len
+  105:1   error    This line has a length of 112. Maximum allowed is 100  max-len
+  106:1   error    This line has a length of 152. Maximum allowed is 100  max-len
+  117:34  error    Expected '===' and instead saw '=='                    eqeqeq
+  117:50  error    Assignment to property of function parameter 'dataIn'  no-param-reassign
+  118:34  error    Expected '===' and instead saw '=='                    eqeqeq
+  118:50  error    Assignment to property of function parameter 'dataIn'  no-param-reassign
+  119:40  error    Expected '===' and instead saw '=='                    eqeqeq
+  119:56  error    Assignment to property of function parameter 'dataIn'  no-param-reassign
+  120:44  error    Expected '===' and instead saw '=='                    eqeqeq
+  120:60  error    Assignment to property of function parameter 'dataIn'  no-param-reassign
+  121:33  error    Expected '===' and instead saw '=='                    eqeqeq
+  121:49  error    Assignment to property of function parameter 'dataIn'  no-param-reassign
+  126:23  error    Expected '===' and instead saw '=='                    eqeqeq
+  132:5   error    Unreachable code                                       no-unreachable
+  136:5   error    Assignment to property of function parameter 'dataIn'  no-param-reassign
+  138:5   error    Assignment to property of function parameter 'dataIn'  no-param-reassign
+  140:3   error    Assignment to property of function parameter 'dataIn'  no-param-reassign
+  146:5   error    Async arrow function expected no return value          consistent-return
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\models-mssql\AdmittedChildren.js
+   1:9   error  'Sequelize' is assigned a value but never used  no-unused-vars
+   2:7   error  'JOI' is assigned a value but never used        no-unused-vars
+  62:9   error  'isDeleted' is assigned a value but never used  no-unused-vars
+  66:23  error  Expected '===' and instead saw '=='             eqeqeq
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\models-mssql\App.js
+   65:10  error    Assignment to property of function parameter 'dataIn'  no-param-reassign
+   66:3   error    'modelData' is never reassigned. Use 'const' instead   prefer-const
+   84:5   error    Assignment to function parameter 'appElement'          no-param-reassign
+  117:46  error    Promise executor functions should not be async         no-async-promise-executor
+  120:5   error    Expected the Promise rejection reason to be an Error   prefer-promise-reject-errors
+  122:1   error    This line has a length of 101. Maximum allowed is 100  max-len
+  128:33  warning  Redundant use of `await` on a return value             no-return-await
+  143:21  error    Assignment to property of function parameter 'dataIn'  no-param-reassign
+  147:5   error    Expected an error object to be thrown                  no-throw-literal
+  151:27  error    Expected an error object to be thrown                  no-throw-literal
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\models-mssql\AppData.js
+  6:22  error  Unexpected tab character  no-tabs
+  6:29  error  Unexpected tab character  no-tabs
+  6:48  error  Unexpected tab character  no-tabs
+  6:60  error  Unexpected tab character  no-tabs
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\models-mssql\AppElement.js
+    1:38  error    'DATE' is assigned a value but never used                                  no-unused-vars
+   87:10  error    Assignment to property of function parameter 'dataIn'                      no-param-reassign
+  107:1   error    Unexpected tab character                                                   no-tabs
+  110:21  error    'getById' was used before it was defined                                   no-use-before-define
+  122:32  error    Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  125:36  error    Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  128:31  error    Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  131:27  error    Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  132:32  error    Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  135:40  error    Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  138:36  error    Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  141:10  warning  Redundant use of `await` on a return value                                 no-return-await
+  144:30  warning  Redundant use of `await` on a return value                                 no-return-await
+  154:27  warning  Redundant use of `await` on a return value                                 no-return-await
+  157:21  error    Assignment to property of function parameter 'dataIn'                      no-param-reassign
+  161:5   error    Expected an error object to be thrown                                      no-throw-literal
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\models-mssql\AppElementProperty.js
+    1:1   error    File has too many classes (2). Maximum allowed is 1    max-classes-per-file
+    1:38  error    'DATE' is assigned a value but never used              no-unused-vars
+   69:1   error    This line has a length of 156. Maximum allowed is 100  max-len
+   69:1   error    Unexpected tab character                               no-tabs
+   70:1   error    This line has a length of 127. Maximum allowed is 100  max-len
+   70:1   error    Unexpected tab character                               no-tabs
+   71:1   error    This line has a length of 127. Maximum allowed is 100  max-len
+   71:1   error    Unexpected tab character                               no-tabs
+  155:1   error    This line has a length of 128. Maximum allowed is 100  max-len
+  157:1   error    This line has a length of 145. Maximum allowed is 100  max-len
+  158:1   error    This line has a length of 109. Maximum allowed is 100  max-len
+  159:10  warning  Redundant use of `await` on a return value             no-return-await
+  162:1   error    This line has a length of 102. Maximum allowed is 100  max-len
+  162:37  warning  Redundant use of `await` on a return value             no-return-await
+  165:49  error    'appElementId' is not defined                          no-undef
+  169:21  error    Assignment to property of function parameter 'dataIn'  no-param-reassign
+  173:5   error    Expected an error object to be thrown                  no-throw-literal
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\models-mssql\AppUser.js
+   16:9   error  'gt' is assigned a value but never used                   no-unused-vars
+   16:13  error  'lte' is assigned a value but never used                  no-unused-vars
+   16:26  error  'opIn' is assigned a value but never used                 no-unused-vars
+  175:55  error  Identifier 'req_user' is not in camel case                camelcase
+  177:20  error  'getUserByLogin' was used before it was defined           no-use-before-define
+  179:5   error  'userLogin' is not defined                                no-undef
+  186:5   error  'appUser' is not defined                                  no-undef
+  194:33  error  'appUser' is not defined                                  no-undef
+  195:32  error  'appUser' is not defined                                  no-undef
+  196:32  error  'appUser' is not defined                                  no-undef
+  198:18  error  'createUser' was used before it was defined               no-use-before-define
+  198:29  error  'appUser' is not defined                                  no-undef
+  198:38  error  'userLogin' is not defined                                no-undef
+  205:3   error  Assignment to function parameter 'appUser'                no-param-reassign
+  205:19  error  'validate' was used before it was defined                 no-use-before-define
+  219:3   error  Assignment to property of function parameter 'userLogin'  no-param-reassign
+  241:10  error  'getById' was used before it was defined                  no-use-before-define
+  263:75  error  Identifier 'fb_userId' is not in camel case               camelcase
+  263:75  error  'fb_userId' is assigned a value but never used            no-unused-vars
+  266:9   error  Identifier 'qry_email' is not in camel case               camelcase
+  267:3   error  Async arrow function expected no return value             consistent-return
+  268:38  error  Identifier 'qry_email' is not in camel case               camelcase
+  300:1   error  This line has a length of 107. Maximum allowed is 100     max-len
+  300:82  error  Identifier 'password_hash' is not in camel case           camelcase
+  305:9   error  Identifier 'qry_email' is not in camel case               camelcase
+  306:41  error  Identifier 'qry_email' is not in camel case               camelcase
+  306:52  error  Identifier 'password_hash' is not in camel case           camelcase
+  308:38  error  Identifier 'qry_email' is not in camel case               camelcase
+  308:49  error  Identifier 'password_hash' is not in camel case           camelcase
+  324:1   error  This line has a length of 114. Maximum allowed is 100     max-len
+  405:42  error  Expected '===' and instead saw '=='                       eqeqeq
+  418:1   error  This line has a length of 104. Maximum allowed is 100     max-len
+  472:21  error  Assignment to property of function parameter 'dataIn'     no-param-reassign
+  473:41  error  Assignment to property of function parameter 'dataIn'     no-param-reassign
+  474:39  error  Assignment to property of function parameter 'dataIn'     no-param-reassign
+  475:43  error  Assignment to property of function parameter 'dataIn'     no-param-reassign
+  476:43  error  Assignment to property of function parameter 'dataIn'     no-param-reassign
+  477:42  error  Assignment to property of function parameter 'dataIn'     no-param-reassign
+  478:44  error  Assignment to property of function parameter 'dataIn'     no-param-reassign
+  479:47  error  Assignment to property of function parameter 'dataIn'     no-param-reassign
+  480:46  error  Assignment to property of function parameter 'dataIn'     no-param-reassign
+  481:46  error  Assignment to property of function parameter 'dataIn'     no-param-reassign
+  482:42  error  Assignment to property of function parameter 'dataIn'     no-param-reassign
+  483:47  error  Assignment to property of function parameter 'dataIn'     no-param-reassign
+  484:51  error  Assignment to property of function parameter 'dataIn'     no-param-reassign
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\models-mssql\AppUserLogin.js
+   69:3   error    'modelData' is never reassigned. Use 'const' instead   prefer-const
+   69:40  error    'validate' was used before it was defined              no-use-before-define
+   70:10  warning  Redundant use of `await` on a return value             no-return-await
+   91:64  error    Identifier 'fb_userId' is not in camel case            camelcase
+   91:64  error    'fb_userId' is assigned a value but never used         no-unused-vars
+   94:30  error    Expected '!==' and instead saw '!='                    eqeqeq
+   95:10  warning  Redundant use of `await` on a return value             no-return-await
+  104:21  error    Assignment to property of function parameter 'dataIn'  no-param-reassign
+  105:39  error    Assignment to property of function parameter 'dataIn'  no-param-reassign
+  106:43  error    Assignment to property of function parameter 'dataIn'  no-param-reassign
+  107:43  error    Assignment to property of function parameter 'dataIn'  no-param-reassign
+  108:45  error    Assignment to property of function parameter 'dataIn'  no-param-reassign
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\models-mssql\Application.js
+   18:9    error  'gt' is assigned a value but never used                no-unused-vars
+   18:13   error  'lte' is assigned a value but never used               no-unused-vars
+   18:26   error  'opIn' is assigned a value but never used              no-unused-vars
+  334:1    error  This line has a length of 105. Maximum allowed is 100  max-len
+  334:3    error  Assignment to property of function parameter 'dataIn'  no-param-reassign
+  335:3    error  'modelData' is never reassigned. Use 'const' instead   prefer-const
+  345:1    error  This line has a length of 102. Maximum allowed is 100  max-len
+  345:10   error  'getById' was used before it was defined               no-use-before-define
+  353:25   error  Expected '===' and instead saw '=='                    eqeqeq
+  353:53   error  Expected '===' and instead saw '=='                    eqeqeq
+  383:11   error  'userId' is assigned a value but never used            no-unused-vars
+  384:1    error  This line has a length of 102. Maximum allowed is 100  max-len
+  389:7    error  'userHasStaffRole' is assigned a value but never used  no-unused-vars
+  391:24   error  Expected '===' and instead saw '=='                    eqeqeq
+  391:52   error  Expected '===' and instead saw '=='                    eqeqeq
+  392:28   error  Expected '===' and instead saw '=='                    eqeqeq
+  404:1    error  This line has a length of 104. Maximum allowed is 100  max-len
+  410:1    error  This line has a length of 128. Maximum allowed is 100  max-len
+  411:1    error  This line has a length of 140. Maximum allowed is 100  max-len
+  412:1    error  This line has a length of 132. Maximum allowed is 100  max-len
+  414:1    error  This line has a length of 124. Maximum allowed is 100  max-len
+  415:1    error  This line has a length of 136. Maximum allowed is 100  max-len
+  416:1    error  This line has a length of 128. Maximum allowed is 100  max-len
+  418:1    error  This line has a length of 140. Maximum allowed is 100  max-len
+  429:1    error  This line has a length of 112. Maximum allowed is 100  max-len
+  433:1    error  This line has a length of 120. Maximum allowed is 100  max-len
+  434:1    error  This line has a length of 136. Maximum allowed is 100  max-len
+  437:1    error  This line has a length of 104. Maximum allowed is 100  max-len
+  448:24   error  Expected '===' and instead saw '=='                    eqeqeq
+  448:52   error  Expected '===' and instead saw '=='                    eqeqeq
+  448:88   error  Expected '===' and instead saw '=='                    eqeqeq
+  449:28   error  Expected '===' and instead saw '=='                    eqeqeq
+  461:29   error  Expected '===' and instead saw '=='                    eqeqeq
+  493:24   error  Expected '===' and instead saw '=='                    eqeqeq
+  493:52   error  Expected '===' and instead saw '=='                    eqeqeq
+  494:28   error  Expected '===' and instead saw '=='                    eqeqeq
+  506:29   error  Expected '===' and instead saw '=='                    eqeqeq
+  531:21   error  Assignment to property of function parameter 'dataIn'  no-param-reassign
+  532:1    error  This line has a length of 179. Maximum allowed is 100  max-len
+  533:39   error  Assignment to property of function parameter 'dataIn'  no-param-reassign
+  534:1    error  This line has a length of 175. Maximum allowed is 100  max-len
+  534:49   error  Assignment to property of function parameter 'dataIn'  no-param-reassign
+  535:86   error  Assignment to property of function parameter 'dataIn'  no-param-reassign
+  536:77   error  Assignment to property of function parameter 'dataIn'  no-param-reassign
+  537:48   error  Assignment to property of function parameter 'dataIn'  no-param-reassign
+  538:66   error  Assignment to property of function parameter 'dataIn'  no-param-reassign
+  539:84   error  Assignment to property of function parameter 'dataIn'  no-param-reassign
+  540:80   error  Assignment to property of function parameter 'dataIn'  no-param-reassign
+  541:78   error  Assignment to property of function parameter 'dataIn'  no-param-reassign
+  542:98   error  Assignment to property of function parameter 'dataIn'  no-param-reassign
+  543:104  error  Assignment to property of function parameter 'dataIn'  no-param-reassign
+  544:100  error  Assignment to property of function parameter 'dataIn'  no-param-reassign
+  545:84   error  Assignment to property of function parameter 'dataIn'  no-param-reassign
+  546:96   error  Assignment to property of function parameter 'dataIn'  no-param-reassign
+  547:102  error  Assignment to property of function parameter 'dataIn'  no-param-reassign
+  548:98   error  Assignment to property of function parameter 'dataIn'  no-param-reassign
+  549:80   error  Assignment to property of function parameter 'dataIn'  no-param-reassign
+  550:104  error  Assignment to property of function parameter 'dataIn'  no-param-reassign
+  551:74   error  Assignment to property of function parameter 'dataIn'  no-param-reassign
+  552:58   error  Assignment to property of function parameter 'dataIn'  no-param-reassign
+  553:72   error  Assignment to property of function parameter 'dataIn'  no-param-reassign
+  554:70   error  Assignment to property of function parameter 'dataIn'  no-param-reassign
+  555:82   error  Assignment to property of function parameter 'dataIn'  no-param-reassign
+  556:64   error  Assignment to property of function parameter 'dataIn'  no-param-reassign
+  557:68   error  Assignment to property of function parameter 'dataIn'  no-param-reassign
+  558:66   error  Assignment to property of function parameter 'dataIn'  no-param-reassign
+  559:78   error  Assignment to property of function parameter 'dataIn'  no-param-reassign
+  560:68   error  Assignment to property of function parameter 'dataIn'  no-param-reassign
+  561:90   error  Assignment to property of function parameter 'dataIn'  no-param-reassign
+  562:82   error  Assignment to property of function parameter 'dataIn'  no-param-reassign
+  563:78   error  Assignment to property of function parameter 'dataIn'  no-param-reassign
+  564:78   error  Assignment to property of function parameter 'dataIn'  no-param-reassign
+  565:94   error  Assignment to property of function parameter 'dataIn'  no-param-reassign
+  566:102  error  Assignment to property of function parameter 'dataIn'  no-param-reassign
+  567:70   error  Assignment to property of function parameter 'dataIn'  no-param-reassign
+  568:86   error  Assignment to property of function parameter 'dataIn'  no-param-reassign
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\models-mssql\ApplicationAYClassSection.js
+  96:33  error  Parsing error: Unexpected token .
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\models-mssql\ApplicationAYClassSectionsSubjectExamMarks.js
+  116:1   error    This line has a length of 134. Maximum allowed is 100  max-len
+  121:1   error    This line has a length of 123. Maximum allowed is 100  max-len
+  122:1   error    This line has a length of 124. Maximum allowed is 100  max-len
+  124:1   error    This line has a length of 102. Maximum allowed is 100  max-len
+  130:10  warning  Redundant use of `await` on a return value             no-return-await
+  133:31  warning  Redundant use of `await` on a return value             no-return-await
+  139:1   error    This line has a length of 118. Maximum allowed is 100  max-len
+  163:10  warning  Redundant use of `await` on a return value             no-return-await
+  166:27  warning  Redundant use of `await` on a return value             no-return-await
+  174:22  error    Expected '===' and instead saw '=='                    eqeqeq
+  174:50  error    Expected '===' and instead saw '=='                    eqeqeq
+  175:22  error    Expected '===' and instead saw '=='                    eqeqeq
+  193:10  warning  Redundant use of `await` on a return value             no-return-await
+  199:21  error    Assignment to property of function parameter 'dataIn'  no-param-reassign
+  200:3   error    Assignment to property of function parameter 'dataIn'  no-param-reassign
+  204:5   error    Expected an error object to be thrown                  no-throw-literal
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\models-mssql\ApplicationAYClassSectionsSubjectExamMarksReport.js
+    1:38  error    'Op' is assigned a value but never used     no-unused-vars
+    2:7   error    'JOI' is assigned a value but never used    no-unused-vars
+    3:7   error    'dayjs' is assigned a value but never used  no-unused-vars
+   37:5   error    Duplicate key 'classSectionId'              no-dupe-keys
+   92:22  error    Expected '===' and instead saw '=='         eqeqeq
+   92:50  error    Expected '===' and instead saw '=='         eqeqeq
+   93:22  error    Expected '===' and instead saw '=='         eqeqeq
+  107:10  warning  Redundant use of `await` on a return value  no-return-await
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\models-mssql\ApplicationAgreementDay.js
+  54:3   error  'modelData' is never reassigned. Use 'const' instead   prefer-const
+  78:21  error  Assignment to property of function parameter 'dataIn'  no-param-reassign
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\models-mssql\ApplicationDocType.js
+   70:3   error  'modelData' is never reassigned. Use 'const' instead                       prefer-const
+   92:34  error  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   93:26  error  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   94:25  error  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   95:26  error  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   96:25  error  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  100:50  error  Expected to return a value at the end of async arrow function              consistent-return
+  103:20  error  Expected '===' and instead saw '=='                                        eqeqeq
+  106:5   error  Assignment to property of function parameter 'dataIn'                      no-param-reassign
+  108:3   error  Assignment to property of function parameter 'dataIn'                      no-param-reassign
+  109:3   error  Assignment to property of function parameter 'dataIn'                      no-param-reassign
+  110:21  error  Assignment to property of function parameter 'dataIn'                      no-param-reassign
+  117:1   error  This line has a length of 104. Maximum allowed is 100                      max-len
+  117:5   error  Unexpected if as the only statement in an else block                       no-lonely-if
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\models-mssql\ApplicationDocument.js
+  62:3   error  'modelData' is never reassigned. Use 'const' instead                       prefer-const
+  78:34  error  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  79:26  error  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  80:25  error  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  81:26  error  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  82:25  error  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  87:21  error  Assignment to property of function parameter 'dataIn'                      no-param-reassign
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\models-mssql\ApplicationEmergencyContact.js
+  51:3   error  'modelData' is never reassigned. Use 'const' instead   prefer-const
+  76:21  error  Assignment to property of function parameter 'dataIn'  no-param-reassign
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\models-mssql\ApplicationParent.js
+  55:3   error  'modelData' is never reassigned. Use 'const' instead   prefer-const
+  81:21  error  Assignment to property of function parameter 'dataIn'  no-param-reassign
+  82:27  error  Expected '===' and instead saw '=='                    eqeqeq
+  82:43  error  Assignment to property of function parameter 'dataIn'  no-param-reassign
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\models-mssql\ApplicationPickupPermission.js
+  59:3   error  'modelData' is never reassigned. Use 'const' instead   prefer-const
+  73:5   error  'applicationId' is not defined                         no-undef
+  89:39  error  'dataInisDeleted' is not defined                       no-undef
+  94:21  error  Assignment to property of function parameter 'dataIn'  no-param-reassign
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\models-mssql\ApplicationScholarship.js
+   95:10  warning  Redundant use of `await` on a return value             no-return-await
+   98:31  warning  Redundant use of `await` on a return value             no-return-await
+  102:1   error    This line has a length of 105. Maximum allowed is 100  max-len
+  103:1   error    This line has a length of 132. Maximum allowed is 100  max-len
+  106:1   error    This line has a length of 120. Maximum allowed is 100  max-len
+  110:1   error    This line has a length of 112. Maximum allowed is 100  max-len
+  111:10  warning  Redundant use of `await` on a return value             no-return-await
+  113:1   error    This line has a length of 109. Maximum allowed is 100  max-len
+  113:27  warning  Redundant use of `await` on a return value             no-return-await
+  118:24  error    Expected '===' and instead saw '=='                    eqeqeq
+  118:52  error    Expected '===' and instead saw '=='                    eqeqeq
+  119:28  error    Expected '===' and instead saw '=='                    eqeqeq
+  126:10  warning  Redundant use of `await` on a return value             no-return-await
+  131:21  error    Assignment to property of function parameter 'dataIn'  no-param-reassign
+  136:5   error    Expected an error object to be thrown                  no-throw-literal
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\models-mssql\Attendance.js
+    9:7   error  'getSelfUserFamilyId' is assigned a value but never used           no-unused-vars
+   10:15  error  `dayjs` import should occur before import of `../utils/sequelize`  import/order
+   15:9   error  'ApplicationAYClassSection' is assigned a value but never used     no-unused-vars
+  119:1   error  This line has a length of 328. Maximum allowed is 100              max-len
+  126:11  error  'userId' is assigned a value but never used                        no-unused-vars
+  130:1   error  This line has a length of 107. Maximum allowed is 100              max-len
+  139:23  error  Expected '===' and instead saw '=='                                eqeqeq
+  140:22  error  Expected '===' and instead saw '=='                                eqeqeq
+  155:34  error  Expected '===' and instead saw '=='                                eqeqeq
+  162:40  error  Expected '!==' and instead saw '!='                                eqeqeq
+  168:50  error  Expected '!==' and instead saw '!='                                eqeqeq
+  175:1   error  This line has a length of 115. Maximum allowed is 100              max-len
+  183:1   error  This line has a length of 131. Maximum allowed is 100              max-len
+  191:1   error  This line has a length of 123. Maximum allowed is 100              max-len
+  249:3   error  'modelData' is never reassigned. Use 'const' instead               prefer-const
+  265:1   error  This line has a length of 132. Maximum allowed is 100              max-len
+  266:1   error  This line has a length of 132. Maximum allowed is 100              max-len
+  267:1   error  This line has a length of 188. Maximum allowed is 100              max-len
+  269:1   error  This line has a length of 136. Maximum allowed is 100              max-len
+  270:1   error  This line has a length of 136. Maximum allowed is 100              max-len
+  282:23  error  Expected '===' and instead saw '=='                                eqeqeq
+  288:23  error  Expected '===' and instead saw '=='                                eqeqeq
+  293:9   error  'tdt' is assigned a value but never used                           no-unused-vars
+  295:1   error  This line has a length of 108. Maximum allowed is 100              max-len
+  295:29  error  Expected '===' and instead saw '=='                                eqeqeq
+  301:5   error  Assignment to function parameter 'dataIn'                          no-param-reassign
+  305:5   error  Assignment to property of function parameter 'dataIn'              no-param-reassign
+  320:1   error  This line has a length of 103. Maximum allowed is 100              max-len
+  321:35  error  Assignment to property of function parameter 'dataIn'              no-param-reassign
+  323:1   error  This line has a length of 120. Maximum allowed is 100              max-len
+  323:36  error  Expected '===' and instead saw '=='                                eqeqeq
+  324:5   error  Assignment to function parameter 'dataIn'                          no-param-reassign
+  325:5   error  Assignment to property of function parameter 'dataIn'              no-param-reassign
+  326:1   error  This line has a length of 104. Maximum allowed is 100              max-len
+  327:23  error  Assignment to property of function parameter 'dataIn'              no-param-reassign
+  328:1   error  This line has a length of 123. Maximum allowed is 100              max-len
+  328:36  error  Expected '===' and instead saw '=='                                eqeqeq
+  333:5   error  Assignment to function parameter 'dataIn'                          no-param-reassign
+  334:5   error  Assignment to property of function parameter 'dataIn'              no-param-reassign
+  335:1   error  This line has a length of 104. Maximum allowed is 100              max-len
+  337:16  error  Assignment to property of function parameter 'dataIn'              no-param-reassign
+  338:36  error  Expected '===' and instead saw '=='                                eqeqeq
+  339:5   error  Assignment to function parameter 'dataIn'                          no-param-reassign
+  340:5   error  Assignment to property of function parameter 'dataIn'              no-param-reassign
+  341:1   error  This line has a length of 104. Maximum allowed is 100              max-len
+  342:23  error  Assignment to property of function parameter 'dataIn'              no-param-reassign
+  343:1   error  This line has a length of 142. Maximum allowed is 100              max-len
+  343:36  error  Expected '===' and instead saw '=='                                eqeqeq
+  344:5   error  Assignment to function parameter 'dataIn'                          no-param-reassign
+  348:5   error  Assignment to property of function parameter 'dataIn'              no-param-reassign
+  350:1   error  This line has a length of 105. Maximum allowed is 100              max-len
+  351:1   error  This line has a length of 112. Maximum allowed is 100              max-len
+  352:1   error  This line has a length of 142. Maximum allowed is 100              max-len
+  352:36  error  Expected '===' and instead saw '=='                                eqeqeq
+  353:5   error  Assignment to function parameter 'dataIn'                          no-param-reassign
+  357:5   error  Assignment to property of function parameter 'dataIn'              no-param-reassign
+  359:1   error  This line has a length of 105. Maximum allowed is 100              max-len
+  360:1   error  This line has a length of 112. Maximum allowed is 100              max-len
+  361:1   error  This line has a length of 119. Maximum allowed is 100              max-len
+  361:36  error  Expected '===' and instead saw '=='                                eqeqeq
+  362:5   error  Assignment to function parameter 'dataIn'                          no-param-reassign
+  366:5   error  Assignment to property of function parameter 'dataIn'              no-param-reassign
+  368:1   error  This line has a length of 105. Maximum allowed is 100              max-len
+  369:1   error  This line has a length of 112. Maximum allowed is 100              max-len
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\models-mssql\ClassSectionSyllabusClassCombinations.js
+  144:13  error  Parsing error: Unexpected token .
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\models-mssql\ClassSections.js
+   80:10  warning  Redundant use of `await` on a return value             no-return-await
+   83:31  warning  Redundant use of `await` on a return value             no-return-await
+   87:1   error    This line has a length of 105. Maximum allowed is 100  max-len
+   88:1   error    This line has a length of 120. Maximum allowed is 100  max-len
+   91:1   error    This line has a length of 120. Maximum allowed is 100  max-len
+   92:10  warning  Redundant use of `await` on a return value             no-return-await
+   94:27  warning  Redundant use of `await` on a return value             no-return-await
+   99:24  error    Expected '===' and instead saw '=='                    eqeqeq
+   99:52  error    Expected '===' and instead saw '=='                    eqeqeq
+  100:28  error    Expected '===' and instead saw '=='                    eqeqeq
+  108:10  warning  Redundant use of `await` on a return value             no-return-await
+  111:21  error    Assignment to property of function parameter 'dataIn'  no-param-reassign
+  116:5   error    Expected an error object to be thrown                  no-throw-literal
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\models-mssql\Classes.js
+   75:10  warning  Redundant use of `await` on a return value             no-return-await
+   78:31  warning  Redundant use of `await` on a return value             no-return-await
+   85:1   error    This line has a length of 112. Maximum allowed is 100  max-len
+   86:10  warning  Redundant use of `await` on a return value             no-return-await
+   88:27  warning  Redundant use of `await` on a return value             no-return-await
+   93:24  error    Expected '===' and instead saw '=='                    eqeqeq
+   93:52  error    Expected '===' and instead saw '=='                    eqeqeq
+   94:28  error    Expected '===' and instead saw '=='                    eqeqeq
+  102:10  warning  Redundant use of `await` on a return value             no-return-await
+  105:21  error    Assignment to property of function parameter 'dataIn'  no-param-reassign
+  110:5   error    Expected an error object to be thrown                  no-throw-literal
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\models-mssql\ElementTypeProperties.js
+    2:7   error    'JOI' is assigned a value but never used                                   no-unused-vars
+  119:41  error    Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  120:45  error    Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  121:45  error    Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  122:49  error    Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  123:42  error    Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  124:28  error    Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  126:10  warning  Redundant use of `await` on a return value                                 no-return-await
+  129:1   error    This line has a length of 102. Maximum allowed is 100                      max-len
+  129:27  warning  Redundant use of `await` on a return value                                 no-return-await
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\models-mssql\ElementTypes.js
+    1:31  error    'Model' is assigned a value but never used                     no-unused-vars
+    1:38  error    'DATE' is assigned a value but never used                      no-unused-vars
+   68:1   error    Unexpected tab character                                       no-tabs
+   68:1   error    Mixed spaces and tabs                                          no-mixed-spaces-and-tabs
+   68:3   error    Expected no linebreak before this expression                   implicit-arrow-linebreak
+   68:3   warning  Redundant use of `await` on a return value                     no-return-await
+   72:1   error    Expected this semicolon to be at the end of the previous line  semi-style
+  126:10  warning  Redundant use of `await` on a return value                     no-return-await
+  129:27  warning  Redundant use of `await` on a return value                     no-return-await
+  132:21  error    Assignment to property of function parameter 'dataIn'          no-param-reassign
+  136:5   error    Expected an error object to be thrown                          no-throw-literal
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\models-mssql\ErrorLogs.js
+  41:10  error  'validate' is not defined       no-undef
+  42:31  error  'ErrorResponse' is not defined  no-undef
+  46:29  error  'QueryResult' is not defined    no-undef
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\models-mssql\Exam.js
+   81:10  warning  Redundant use of `await` on a return value             no-return-await
+   84:31  warning  Redundant use of `await` on a return value             no-return-await
+   93:10  warning  Redundant use of `await` on a return value             no-return-await
+   95:27  warning  Redundant use of `await` on a return value             no-return-await
+  100:24  error    Expected '===' and instead saw '=='                    eqeqeq
+  100:52  error    Expected '===' and instead saw '=='                    eqeqeq
+  101:28  error    Expected '===' and instead saw '=='                    eqeqeq
+  112:10  warning  Redundant use of `await` on a return value             no-return-await
+  119:21  error    Assignment to property of function parameter 'dataIn'  no-param-reassign
+  124:5   error    Expected an error object to be thrown                  no-throw-literal
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\models-mssql\ExamGroup.js
+   76:10  warning  Redundant use of `await` on a return value             no-return-await
+   79:31  warning  Redundant use of `await` on a return value             no-return-await
+   83:1   error    This line has a length of 102. Maximum allowed is 100  max-len
+   85:1   error    This line has a length of 108. Maximum allowed is 100  max-len
+   86:10  warning  Redundant use of `await` on a return value             no-return-await
+   88:27  warning  Redundant use of `await` on a return value             no-return-await
+   93:24  error    Expected '===' and instead saw '=='                    eqeqeq
+   93:52  error    Expected '===' and instead saw '=='                    eqeqeq
+   94:28  error    Expected '===' and instead saw '=='                    eqeqeq
+  101:10  warning  Redundant use of `await` on a return value             no-return-await
+  112:21  error    Assignment to property of function parameter 'dataIn'  no-param-reassign
+  117:5   error    Expected an error object to be thrown                  no-throw-literal
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\models-mssql\ExpenseAccount.js
+   78:10  warning  Redundant use of `await` on a return value             no-return-await
+   81:31  warning  Redundant use of `await` on a return value             no-return-await
+   85:1   error    This line has a length of 107. Maximum allowed is 100  max-len
+   87:1   error    This line has a length of 108. Maximum allowed is 100  max-len
+   88:1   error    This line has a length of 108. Maximum allowed is 100  max-len
+   89:10  warning  Redundant use of `await` on a return value             no-return-await
+   91:27  warning  Redundant use of `await` on a return value             no-return-await
+   96:24  error    Expected '===' and instead saw '=='                    eqeqeq
+   97:28  error    Expected '===' and instead saw '=='                    eqeqeq
+  128:41  error    'Op' is not defined                                    no-undef
+  129:12  warning  Redundant use of `await` on a return value             no-return-await
+  136:10  warning  Redundant use of `await` on a return value             no-return-await
+  144:21  error    Assignment to property of function parameter 'dataIn'  no-param-reassign
+  149:5   error    Expected an error object to be thrown                  no-throw-literal
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\models-mssql\Expenses.js
+   87:10  warning  Redundant use of `await` on a return value             no-return-await
+   90:31  warning  Redundant use of `await` on a return value             no-return-await
+   94:1   error    This line has a length of 107. Maximum allowed is 100  max-len
+   97:1   error    This line has a length of 108. Maximum allowed is 100  max-len
+   99:10  warning  Redundant use of `await` on a return value             no-return-await
+  101:27  warning  Redundant use of `await` on a return value             no-return-await
+  106:24  error    Expected '===' and instead saw '=='                    eqeqeq
+  107:28  error    Expected '===' and instead saw '=='                    eqeqeq
+  115:10  warning  Redundant use of `await` on a return value             no-return-await
+  123:21  error    Assignment to property of function parameter 'dataIn'  no-param-reassign
+  128:5   error    Expected an error object to be thrown                  no-throw-literal
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\models-mssql\FeeReceipt.js
+    6:7   error  'getSelfUserFamilyId' is assigned a value but never used           no-unused-vars
+    7:15  error  `dayjs` import should occur before import of `../utils/sequelize`  import/order
+  129:1   error  This line has a length of 328. Maximum allowed is 100              max-len
+  136:11  error  'userId' is assigned a value but never used                        no-unused-vars
+  146:23  error  Expected '===' and instead saw '=='                                eqeqeq
+  146:51  error  Expected '===' and instead saw '=='                                eqeqeq
+  147:22  error  Expected '===' and instead saw '=='                                eqeqeq
+  155:34  error  Expected '===' and instead saw '=='                                eqeqeq
+  210:3   error  'modelData' is never reassigned. Use 'const' instead               prefer-const
+  219:1   error  This line has a length of 144. Maximum allowed is 100              max-len
+  226:1   error  This line has a length of 116. Maximum allowed is 100              max-len
+  227:1   error  This line has a length of 108. Maximum allowed is 100              max-len
+  238:11  error  'userId' is assigned a value but never used                        no-unused-vars
+  239:7   error  'userHasStaffRole' is assigned a value but never used              no-unused-vars
+  241:23  error  Expected '===' and instead saw '=='                                eqeqeq
+  241:51  error  Expected '===' and instead saw '=='                                eqeqeq
+  246:21  error  Assignment to property of function parameter 'dataIn'              no-param-reassign
+  247:61  error  Assignment to property of function parameter 'dataIn'              no-param-reassign
+  248:47  error  Assignment to property of function parameter 'dataIn'              no-param-reassign
+  249:50  error  Assignment to property of function parameter 'dataIn'              no-param-reassign
+  250:49  error  Assignment to property of function parameter 'dataIn'              no-param-reassign
+  251:45  error  Assignment to property of function parameter 'dataIn'              no-param-reassign
+  252:43  error  Assignment to property of function parameter 'dataIn'              no-param-reassign
+  253:50  error  Assignment to property of function parameter 'dataIn'              no-param-reassign
+  254:41  error  Assignment to property of function parameter 'dataIn'              no-param-reassign
+  255:54  error  Assignment to property of function parameter 'dataIn'              no-param-reassign
+  256:52  error  Assignment to property of function parameter 'dataIn'              no-param-reassign
+  257:47  error  Assignment to property of function parameter 'dataIn'              no-param-reassign
+  258:49  error  Assignment to property of function parameter 'dataIn'              no-param-reassign
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\models-mssql\Organization.js
+  116:10  warning  Redundant use of `await` on a return value             no-return-await
+  136:40  warning  Redundant use of `await` on a return value             no-return-await
+  149:21  error    Assignment to property of function parameter 'dataIn'  no-param-reassign
+  150:50  error    Assignment to property of function parameter 'dataIn'  no-param-reassign
+  151:41  error    Assignment to property of function parameter 'dataIn'  no-param-reassign
+  152:42  error    Assignment to property of function parameter 'dataIn'  no-param-reassign
+  153:44  error    Assignment to property of function parameter 'dataIn'  no-param-reassign
+  154:46  error    Assignment to property of function parameter 'dataIn'  no-param-reassign
+  155:46  error    Assignment to property of function parameter 'dataIn'  no-param-reassign
+  156:45  error    Assignment to property of function parameter 'dataIn'  no-param-reassign
+  157:42  error    Assignment to property of function parameter 'dataIn'  no-param-reassign
+  158:43  error    Assignment to property of function parameter 'dataIn'  no-param-reassign
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\models-mssql\OrganizationLicense.js
+   4:9   error  'Role' is assigned a value but never used              no-unused-vars
+  63:3   error  'modelData' is never reassigned. Use 'const' instead   prefer-const
+  85:21  error  Assignment to property of function parameter 'dataIn'  no-param-reassign
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\models-mssql\Page.js
+    1:1   error    File has too many classes (2). Maximum allowed is 1                        max-classes-per-file
+    1:38  error    'DATE' is assigned a value but never used                                  no-unused-vars
+  325:26  error    Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  326:27  error    Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  327:25  error    Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  328:23  error    Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  329:27  error    Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  330:30  error    Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  333:33  error    Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  336:27  error    Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  337:27  error    Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  338:25  error    Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  339:27  error    Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  340:24  error    Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  341:33  error    Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  344:36  error    Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  347:39  error    Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  350:39  error    Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  353:35  error    Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  356:31  error    Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  359:36  error    Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  362:23  error    Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  363:27  error    Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  364:27  error    Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  366:10  warning  Redundant use of `await` on a return value                                 no-return-await
+  372:11  error    Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  391:11  error    Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  419:21  error    Assignment to property of function parameter 'dataIn'                      no-param-reassign
+  420:3   error    Assignment to property of function parameter 'dataIn'                      no-param-reassign
+  421:3   error    Assignment to property of function parameter 'dataIn'                      no-param-reassign
+  422:43  error    Assignment to property of function parameter 'dataIn'                      no-param-reassign
+  423:34  error    Assignment to property of function parameter 'dataIn'                      no-param-reassign
+  428:5   error    Expected an error object to be thrown                                      no-throw-literal
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\models-mssql\PageElement.js
+    1:38  error    'DATE' is assigned a value but never used                                  no-unused-vars
+   97:10  error    Assignment to property of function parameter 'dataIn'                      no-param-reassign
+  131:21  error    'getById' was used before it was defined                                   no-use-before-define
+  147:33  error    Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  148:37  error    Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  149:31  error    Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  150:27  error    Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  151:28  error    Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  152:41  error    Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  153:31  error    Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  154:36  error    Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  157:14  error    Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  169:31  warning  Redundant use of `await` on a return value                                 no-return-await
+  176:27  warning  Redundant use of `await` on a return value                                 no-return-await
+  179:21  error    Assignment to property of function parameter 'dataIn'                      no-param-reassign
+  183:5   error    Assignment to property of function parameter 'dataIn'                      no-param-reassign
+  187:5   error    Assignment to property of function parameter 'dataIn'                      no-param-reassign
+  191:5   error    Expected an error object to be thrown                                      no-throw-literal
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\models-mssql\PageElementProperty.js
+    1:38  error    'DATE' is assigned a value but never used                                  no-unused-vars
+  105:31  error    Expected to return a value at the end of async arrow function              consistent-return
+  110:44  error    Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  111:34  error    Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  112:12  warning  Redundant use of `await` on a return value                                 no-return-await
+  116:1   error    This line has a length of 101. Maximum allowed is 100                      max-len
+  116:38  warning  Redundant use of `await` on a return value                                 no-return-await
+  119:25  error    'Page' is not defined                                                      no-undef
+  124:21  error    Assignment to property of function parameter 'dataIn'                      no-param-reassign
+  128:5   error    Expected an error object to be thrown                                      no-throw-literal
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\models-mssql\PageRole.js
+  58:3   error  'modelData' is never reassigned. Use 'const' instead   prefer-const
+  71:14  error  'Role' is not defined                                  no-undef
+  98:21  error  Assignment to property of function parameter 'dataIn'  no-param-reassign
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\models-mssql\PickupPermission.js
+    1:9   error  'Sequelize' is assigned a value but never used         no-unused-vars
+  118:21  error  Assignment to property of function parameter 'dataIn'  no-param-reassign
+  119:3   error  Assignment to property of function parameter 'dataIn'  no-param-reassign
+  120:80  error  Assignment to property of function parameter 'dataIn'  no-param-reassign
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\models-mssql\Role.js
+  43:3   error    'modelData' is never reassigned. Use 'const' instead   prefer-const
+  43:15  error    'AppUser' is not defined                               no-undef
+  46:25  warning  Redundant use of `await` on a return value             no-return-await
+  47:31  warning  Redundant use of `await` on a return value             no-return-await
+  52:10  warning  Redundant use of `await` on a return value             no-return-await
+  60:21  error    Assignment to property of function parameter 'dataIn'  no-param-reassign
+  64:5   error    Expected an error object to be thrown                  no-throw-literal
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\models-mssql\StaffAttendance.js
+    1:1   error  File has too many classes (2). Maximum allowed is 1                max-classes-per-file
+    4:41  error  'createUser' is assigned a value but never used                    no-unused-vars
+    5:9   error  'Activity' is assigned a value but never used                      no-unused-vars
+    7:7   error  'appUserRoleId' is assigned a value but never used                 no-unused-vars
+    8:15  error  `dayjs` import should occur before import of `../utils/sequelize`  import/order
+  177:10  error  'checkIfValidUUID' is defined but never used                       no-unused-vars
+  179:1   error  This line has a length of 328. Maximum allowed is 100              max-len
+  186:11  error  'userId' is assigned a value but never used                        no-unused-vars
+  199:23  error  Expected '===' and instead saw '=='                                eqeqeq
+  201:22  error  Expected '===' and instead saw '=='                                eqeqeq
+  204:30  error  Expected '===' and instead saw '=='                                eqeqeq
+  205:22  error  Expected '===' and instead saw '=='                                eqeqeq
+  208:30  error  Expected '===' and instead saw '=='                                eqeqeq
+  209:22  error  Expected '===' and instead saw '=='                                eqeqeq
+  260:11  error  'userId' is assigned a value but never used                        no-unused-vars
+  261:9   error  'userHasStaffTerminalRole' is assigned a value but never used      no-unused-vars
+  263:9   error  'userHasStaffRole' is assigned a value but never used              no-unused-vars
+  264:9   error  'whereClause' is assigned a value but never used                   no-unused-vars
+  273:23  error  Expected '===' and instead saw '=='                                eqeqeq
+  274:22  error  Expected '===' and instead saw '=='                                eqeqeq
+  285:20  error  Multiline support is limited to browsers supporting ES5 only       no-multi-str
+  294:9   error  'att' is assigned a value but never used                           no-unused-vars
+  298:7   error  Use array destructuring                                            prefer-destructuring
+  298:7   error  'data' is not defined                                              no-undef
+  304:27  error  'data' is not defined                                              no-undef
+  305:10  error  'data' is not defined                                              no-undef
+  311:7   error  'getByUserId' is assigned a value but never used                   no-unused-vars
+  317:3   error  'modelData' is never reassigned. Use 'const' instead               prefer-const
+  330:1   error  This line has a length of 132. Maximum allowed is 100              max-len
+  331:1   error  This line has a length of 132. Maximum allowed is 100              max-len
+  333:1   error  This line has a length of 136. Maximum allowed is 100              max-len
+  334:1   error  This line has a length of 136. Maximum allowed is 100              max-len
+  335:1   error  This line has a length of 112. Maximum allowed is 100              max-len
+  336:1   error  This line has a length of 112. Maximum allowed is 100              max-len
+  349:23  error  Expected '===' and instead saw '=='                                eqeqeq
+  351:30  error  Expected '===' and instead saw '=='                                eqeqeq
+  355:31  error  Expected '===' and instead saw '=='                                eqeqeq
+  355:61  error  Expected '===' and instead saw '=='                                eqeqeq
+  357:1   error  This line has a length of 102. Maximum allowed is 100              max-len
+  357:38  error  Expected '===' and instead saw '=='                                eqeqeq
+  357:68  error  Expected '===' and instead saw '=='                                eqeqeq
+  360:9   error  'tdt' is assigned a value but never used                           no-unused-vars
+  362:1   error  This line has a length of 107. Maximum allowed is 100              max-len
+  362:29  error  Expected '===' and instead saw '=='                                eqeqeq
+  367:5   error  Assignment to function parameter 'dataIn'                          no-param-reassign
+  368:5   error  Assignment to property of function parameter 'dataIn'              no-param-reassign
+  369:5   error  Assignment to property of function parameter 'dataIn'              no-param-reassign
+  385:1   error  This line has a length of 125. Maximum allowed is 100              max-len
+  385:36  error  Expected '===' and instead saw '=='                                eqeqeq
+  386:5   error  Assignment to function parameter 'dataIn'                          no-param-reassign
+  387:5   error  Assignment to property of function parameter 'dataIn'              no-param-reassign
+  388:1   error  This line has a length of 104. Maximum allowed is 100              max-len
+  389:23  error  Assignment to property of function parameter 'dataIn'              no-param-reassign
+  390:5   error  Assignment to property of function parameter 'dataIn'              no-param-reassign
+  391:1   error  This line has a length of 122. Maximum allowed is 100              max-len
+  391:36  error  Expected '===' and instead saw '=='                                eqeqeq
+  396:5   error  Assignment to property of function parameter 'dataIn'              no-param-reassign
+  397:5   error  Assignment to property of function parameter 'dataIn'              no-param-reassign
+  398:5   error  Assignment to property of function parameter 'dataIn'              no-param-reassign
+  399:1   error  This line has a length of 104. Maximum allowed is 100              max-len
+  414:5   error  Assignment to property of function parameter 'dataIn'              no-param-reassign
+  415:5   error  Assignment to property of function parameter 'dataIn'              no-param-reassign
+  417:36  error  Expected '===' and instead saw '=='                                eqeqeq
+  418:5   error  Assignment to function parameter 'dataIn'                          no-param-reassign
+  419:5   error  Assignment to property of function parameter 'dataIn'              no-param-reassign
+  420:1   error  This line has a length of 104. Maximum allowed is 100              max-len
+  421:23  error  Assignment to property of function parameter 'dataIn'              no-param-reassign
+  422:5   error  Assignment to property of function parameter 'dataIn'              no-param-reassign
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\models-mssql\StaffLeaveRequest.js
+  100:25  error    Expected '===' and instead saw '=='                            eqeqeq
+  100:55  error    Expected '===' and instead saw '=='                            eqeqeq
+  101:26  error    Expected '===' and instead saw '=='                            eqeqeq
+  103:30  error    Expected '===' and instead saw '=='                            eqeqeq
+  104:26  error    Expected '===' and instead saw '=='                            eqeqeq
+  114:5   error    Assignment to property of function parameter 'dataIn'          no-param-reassign
+  118:10  warning  Redundant use of `await` on a return value                     no-return-await
+  121:31  warning  Redundant use of `await` on a return value                     no-return-await
+  127:1   error    This line has a length of 110. Maximum allowed is 100          max-len
+  132:62  error    Expected '!==' and instead saw '!='                            eqeqeq
+  135:26  error    Expected '===' and instead saw '=='                            eqeqeq
+  136:30  error    Expected '===' and instead saw '=='                            eqeqeq
+  143:1   error    This line has a length of 132. Maximum allowed is 100          max-len
+  144:1   error    This line has a length of 144. Maximum allowed is 100          max-len
+  148:10  warning  Redundant use of `await` on a return value                     no-return-await
+  150:35  error    Expected to return a value at the end of async arrow function  consistent-return
+  153:24  error    Expected '===' and instead saw '=='                            eqeqeq
+  154:28  error    Expected '===' and instead saw '=='                            eqeqeq
+  159:4   error    Mixed spaces and tabs                                          no-mixed-spaces-and-tabs
+  159:5   error    Unexpected tab character                                       no-tabs
+  159:14  warning  Redundant use of `await` on a return value                     no-return-await
+  167:23  error    Expected '===' and instead saw '=='                            eqeqeq
+  168:28  error    Expected '===' and instead saw '=='                            eqeqeq
+  170:32  error    Expected '===' and instead saw '=='                            eqeqeq
+  170:62  error    Expected '===' and instead saw '=='                            eqeqeq
+  171:28  error    Expected '===' and instead saw '=='                            eqeqeq
+  186:10  warning  Redundant use of `await` on a return value                     no-return-await
+  190:5   error    Assignment to property of function parameter 'dataIn'          no-param-reassign
+  197:5   error    Expected an error object to be thrown                          no-throw-literal
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\models-mssql\Subjects.js
+   75:10  warning  Redundant use of `await` on a return value             no-return-await
+   78:31  warning  Redundant use of `await` on a return value             no-return-await
+   87:10  warning  Redundant use of `await` on a return value             no-return-await
+   89:27  warning  Redundant use of `await` on a return value             no-return-await
+   94:24  error    Expected '===' and instead saw '=='                    eqeqeq
+   94:52  error    Expected '===' and instead saw '=='                    eqeqeq
+   95:28  error    Expected '===' and instead saw '=='                    eqeqeq
+  103:10  warning  Redundant use of `await` on a return value             no-return-await
+  106:21  error    Assignment to property of function parameter 'dataIn'  no-param-reassign
+  111:5   error    Expected an error object to be thrown                  no-throw-literal
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\models-mssql\Syllabus.js
+  104:10  warning  Redundant use of `await` on a return value             no-return-await
+  107:31  warning  Redundant use of `await` on a return value             no-return-await
+  111:1   error    This line has a length of 101. Maximum allowed is 100  max-len
+  113:1   error    This line has a length of 104. Maximum allowed is 100  max-len
+  115:1   error    This line has a length of 112. Maximum allowed is 100  max-len
+  116:1   error    This line has a length of 104. Maximum allowed is 100  max-len
+  118:1   error    This line has a length of 128. Maximum allowed is 100  max-len
+  119:10  warning  Redundant use of `await` on a return value             no-return-await
+  121:27  warning  Redundant use of `await` on a return value             no-return-await
+  126:24  error    Expected '===' and instead saw '=='                    eqeqeq
+  126:52  error    Expected '===' and instead saw '=='                    eqeqeq
+  127:28  error    Expected '===' and instead saw '=='                    eqeqeq
+  135:10  warning  Redundant use of `await` on a return value             no-return-await
+  138:21  error    Assignment to property of function parameter 'dataIn'  no-param-reassign
+  143:5   error    Expected an error object to be thrown                  no-throw-literal
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\models-mssql\SyllabusClassCombination.js
+   70:10  warning  Redundant use of `await` on a return value             no-return-await
+   73:31  warning  Redundant use of `await` on a return value             no-return-await
+   77:1   error    This line has a length of 117. Maximum allowed is 100  max-len
+   78:1   error    This line has a length of 140. Maximum allowed is 100  max-len
+   79:1   error    This line has a length of 120. Maximum allowed is 100  max-len
+   81:10  warning  Redundant use of `await` on a return value             no-return-await
+   83:1   error    This line has a length of 112. Maximum allowed is 100  max-len
+   83:27  warning  Redundant use of `await` on a return value             no-return-await
+   88:24  error    Expected '===' and instead saw '=='                    eqeqeq
+   88:52  error    Expected '===' and instead saw '=='                    eqeqeq
+   89:28  error    Expected '===' and instead saw '=='                    eqeqeq
+  101:21  error    Assignment to property of function parameter 'dataIn'  no-param-reassign
+  106:5   error    Expected an error object to be thrown                  no-throw-literal
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\models-mssql\SyllabusCombination.js
+   90:10  warning  Redundant use of `await` on a return value             no-return-await
+   93:31  warning  Redundant use of `await` on a return value             no-return-await
+   97:1   error    This line has a length of 112. Maximum allowed is 100  max-len
+   98:1   error    This line has a length of 120. Maximum allowed is 100  max-len
+   99:1   error    This line has a length of 128. Maximum allowed is 100  max-len
+  100:1   error    This line has a length of 148. Maximum allowed is 100  max-len
+  104:10  warning  Redundant use of `await` on a return value             no-return-await
+  106:1   error    This line has a length of 102. Maximum allowed is 100  max-len
+  106:27  warning  Redundant use of `await` on a return value             no-return-await
+  111:24  error    Expected '===' and instead saw '=='                    eqeqeq
+  111:52  error    Expected '===' and instead saw '=='                    eqeqeq
+  112:28  error    Expected '===' and instead saw '=='                    eqeqeq
+  119:10  warning  Redundant use of `await` on a return value             no-return-await
+  128:21  error    Assignment to property of function parameter 'dataIn'  no-param-reassign
+  133:5   error    Expected an error object to be thrown                  no-throw-literal
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\models-mssql\SyllabusCombinationSubject.js
+    1:1   error    File has too many classes (2). Maximum allowed is 1    max-classes-per-file
+  156:10  warning  Redundant use of `await` on a return value             no-return-await
+  159:31  warning  Redundant use of `await` on a return value             no-return-await
+  163:1   error    This line has a length of 117. Maximum allowed is 100  max-len
+  165:1   error    This line has a length of 120. Maximum allowed is 100  max-len
+  168:10  warning  Redundant use of `await` on a return value             no-return-await
+  170:1   error    This line has a length of 116. Maximum allowed is 100  max-len
+  170:27  warning  Redundant use of `await` on a return value             no-return-await
+  175:24  error    Expected '===' and instead saw '=='                    eqeqeq
+  175:52  error    Expected '===' and instead saw '=='                    eqeqeq
+  176:28  error    Expected '===' and instead saw '=='                    eqeqeq
+  184:41  error    'syllabusCombinationId' is not defined                 no-undef
+  187:10  warning  Redundant use of `await` on a return value             no-return-await
+  197:21  error    Assignment to property of function parameter 'dataIn'  no-param-reassign
+  202:5   error    Expected an error object to be thrown                  no-throw-literal
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\models-mssql\SyllabusCombinationSubjectExam.js
+   80:10  warning  Redundant use of `await` on a return value             no-return-await
+   83:31  warning  Redundant use of `await` on a return value             no-return-await
+   87:1   error    This line has a length of 117. Maximum allowed is 100  max-len
+   89:1   error    This line has a length of 148. Maximum allowed is 100  max-len
+   93:10  warning  Redundant use of `await` on a return value             no-return-await
+   95:1   error    This line has a length of 124. Maximum allowed is 100  max-len
+   95:27  warning  Redundant use of `await` on a return value             no-return-await
+  100:24  error    Expected '===' and instead saw '=='                    eqeqeq
+  100:52  error    Expected '===' and instead saw '=='                    eqeqeq
+  101:28  error    Expected '===' and instead saw '=='                    eqeqeq
+  114:10  warning  Redundant use of `await` on a return value             no-return-await
+  117:21  error    Assignment to property of function parameter 'dataIn'  no-param-reassign
+  122:5   error    Expected an error object to be thrown                  no-throw-literal
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\models-mssql\SyllabusCombinationSubjectExamSchedule.js
+  104:10  warning  Redundant use of `await` on a return value             no-return-await
+  107:31  warning  Redundant use of `await` on a return value             no-return-await
+  111:1   error    This line has a length of 101. Maximum allowed is 100  max-len
+  126:10  warning  Redundant use of `await` on a return value             no-return-await
+  128:27  warning  Redundant use of `await` on a return value             no-return-await
+  136:22  error    Expected '===' and instead saw '=='                    eqeqeq
+  136:50  error    Expected '===' and instead saw '=='                    eqeqeq
+  137:22  error    Expected '===' and instead saw '=='                    eqeqeq
+  155:10  warning  Redundant use of `await` on a return value             no-return-await
+  160:21  error    Assignment to property of function parameter 'dataIn'  no-param-reassign
+  165:5   error    Expected an error object to be thrown                  no-throw-literal
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\models-mssql\TeachingMedium.js
+   81:10  warning  Redundant use of `await` on a return value             no-return-await
+   84:31  warning  Redundant use of `await` on a return value             no-return-await
+   88:1   error    This line has a length of 107. Maximum allowed is 100  max-len
+   89:1   error    This line has a length of 124. Maximum allowed is 100  max-len
+   90:1   error    This line has a length of 144. Maximum allowed is 100  max-len
+   91:1   error    This line has a length of 144. Maximum allowed is 100  max-len
+   92:10  warning  Redundant use of `await` on a return value             no-return-await
+   94:27  warning  Redundant use of `await` on a return value             no-return-await
+   99:24  error    Expected '===' and instead saw '=='                    eqeqeq
+   99:52  error    Expected '===' and instead saw '=='                    eqeqeq
+  100:28  error    Expected '===' and instead saw '=='                    eqeqeq
+  108:10  warning  Redundant use of `await` on a return value             no-return-await
+  111:21  error    Assignment to property of function parameter 'dataIn'  no-param-reassign
+  116:5   error    Expected an error object to be thrown                  no-throw-literal
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\models-mssql\Tenant.js
+  66:10  warning  Redundant use of `await` on a return value             no-return-await
+  69:31  warning  Redundant use of `await` on a return value             no-return-await
+  74:10  warning  Redundant use of `await` on a return value             no-return-await
+  76:27  warning  Redundant use of `await` on a return value             no-return-await
+  78:33  warning  Redundant use of `await` on a return value             no-return-await
+  81:5   error    Assignment to property of function parameter 'dataIn'  no-param-reassign
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\models-mssql\UserChildren.js
+   72:3   error    'modelData' is never reassigned. Use 'const' instead                      prefer-const
+   75:31  warning  Redundant use of `await` on a return value                                no-return-await
+   76:31  warning  Redundant use of `await` on a return value                                no-return-await
+   82:1   error    This line has a length of 108. Maximum allowed is 100                     max-len
+   88:10  warning  Redundant use of `await` on a return value                                no-return-await
+   91:9   error    'UserChildren' is already declared in the upper scope on line 5 column 7  no-shadow
+   96:21  error    Assignment to property of function parameter 'dataIn'                     no-param-reassign
+   97:25  error    Assignment to property of function parameter 'dataIn'                     no-param-reassign
+   99:30  error    Expected '===' and instead saw '=='                                       eqeqeq
+   99:46  error    Assignment to property of function parameter 'dataIn'                     no-param-reassign
+  100:33  error    Expected '===' and instead saw '=='                                       eqeqeq
+  100:49  error    Assignment to property of function parameter 'dataIn'                     no-param-reassign
+  104:5   error    Expected an error object to be thrown                                     no-throw-literal
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\models-mssql\UserFamily.js
+  100:3   error    'modelData' is never reassigned. Use 'const' instead   prefer-const
+  103:31  warning  Redundant use of `await` on a return value             no-return-await
+  104:35  warning  Redundant use of `await` on a return value             no-return-await
+  106:31  warning  Redundant use of `await` on a return value             no-return-await
+  111:1   error    This line has a length of 116. Maximum allowed is 100  max-len
+  112:1   error    This line has a length of 148. Maximum allowed is 100  max-len
+  113:1   error    This line has a length of 120. Maximum allowed is 100  max-len
+  114:1   error    This line has a length of 136. Maximum allowed is 100  max-len
+  115:1   error    This line has a length of 136. Maximum allowed is 100  max-len
+  116:1   error    This line has a length of 132. Maximum allowed is 100  max-len
+  117:1   error    This line has a length of 132. Maximum allowed is 100  max-len
+  118:1   error    This line has a length of 144. Maximum allowed is 100  max-len
+  119:1   error    This line has a length of 168. Maximum allowed is 100  max-len
+  120:1   error    This line has a length of 152. Maximum allowed is 100  max-len
+  121:1   error    This line has a length of 116. Maximum allowed is 100  max-len
+  122:1   error    This line has a length of 120. Maximum allowed is 100  max-len
+  123:1   error    This line has a length of 128. Maximum allowed is 100  max-len
+  124:1   error    This line has a length of 147. Maximum allowed is 100  max-len
+  126:10  warning  Redundant use of `await` on a return value             no-return-await
+  134:21  error    Assignment to property of function parameter 'dataIn'  no-param-reassign
+  135:25  error    Assignment to property of function parameter 'dataIn'  no-param-reassign
+  136:40  error    Expected '===' and instead saw '=='                    eqeqeq
+  136:56  error    Assignment to property of function parameter 'dataIn'  no-param-reassign
+  137:40  error    Expected '===' and instead saw '=='                    eqeqeq
+  137:56  error    Assignment to property of function parameter 'dataIn'  no-param-reassign
+  138:39  error    Expected '===' and instead saw '=='                    eqeqeq
+  138:55  error    Assignment to property of function parameter 'dataIn'  no-param-reassign
+  139:36  error    Expected '===' and instead saw '=='                    eqeqeq
+  139:52  error    Assignment to property of function parameter 'dataIn'  no-param-reassign
+  140:44  error    Expected '===' and instead saw '=='                    eqeqeq
+  140:60  error    Assignment to property of function parameter 'dataIn'  no-param-reassign
+  141:35  error    Expected '===' and instead saw '=='                    eqeqeq
+  141:51  error    Assignment to property of function parameter 'dataIn'  no-param-reassign
+  142:36  error    Expected '===' and instead saw '=='                    eqeqeq
+  142:52  error    Assignment to property of function parameter 'dataIn'  no-param-reassign
+  143:38  error    Expected '===' and instead saw '=='                    eqeqeq
+  143:54  error    Assignment to property of function parameter 'dataIn'  no-param-reassign
+  146:5   error    Expected an error object to be thrown                  no-throw-literal
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\models-mssql\UserMessage.js
+  106:24  error  Expected '===' and instead saw '=='                    eqeqeq
+  106:52  error  Expected '===' and instead saw '=='                    eqeqeq
+  107:28  error  Expected '===' and instead saw '=='                    eqeqeq
+  129:7   error  Do not use the '==' operator to compare against -0     no-compare-neg-zero
+  129:29  error  Expected '===' and instead saw '=='                    eqeqeq
+  143:21  error  Assignment to property of function parameter 'dataIn'  no-param-reassign
+  144:64  error  Expected '===' and instead saw '=='                    eqeqeq
+  144:80  error  Assignment to property of function parameter 'dataIn'  no-param-reassign
+  145:58  error  Expected '===' and instead saw '=='                    eqeqeq
+  145:74  error  Assignment to property of function parameter 'dataIn'  no-param-reassign
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\models-mssql\UserRole.js
+   4:9   error  'Role' is assigned a value but never used              no-unused-vars
+  59:3   error  'modelData' is never reassigned. Use 'const' instead   prefer-const
+  83:1   error  This line has a length of 116. Maximum allowed is 100  max-len
+  88:21  error  Assignment to property of function parameter 'dataIn'  no-param-reassign
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\models-mssql\UserSession.js
+  62:10  error    Assignment to property of function parameter 'user'    no-param-reassign
+  63:10  error    Assignment to property of function parameter 'user'    no-param-reassign
+  64:10  error    Assignment to property of function parameter 'user'    no-param-reassign
+  66:3   error    'modelData' is never reassigned. Use 'const' instead   prefer-const
+  69:1   error    This line has a length of 103. Maximum allowed is 100  max-len
+  74:31  warning  Redundant use of `await` on a return value             no-return-await
+  80:10  warning  Redundant use of `await` on a return value             no-return-await
+  84:21  error    Assignment to property of function parameter 'dataIn'  no-param-reassign
+  88:5   error    Expected an error object to be thrown                  no-throw-literal
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\models-mssql\image.js
+  14:23  error    'obj' is defined but never used. Allowed unused args must match /^_/u  no-unused-vars
+  18:31  warning  Redundant use of `await` on a return value                             no-return-await
+  18:37  error    'Tenant' is not defined                                                no-undef
+  23:10  warning  Redundant use of `await` on a return value                             no-return-await
+  25:27  warning  Redundant use of `await` on a return value                             no-return-await
+  25:33  error    'Tenant' is not defined                                                no-undef
+  27:25  warning  Redundant use of `await` on a return value                             no-return-await
+  27:31  error    'Tenant' is not defined                                                no-undef
+  29:21  error    Assignment to property of function parameter 'dataIn'                  no-param-reassign
+  33:5   error    Expected an error object to be thrown                                  no-throw-literal
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\models-mssql\markreport.txt
+    1:1   error    File has too many classes (3). Maximum allowed is 1                max-classes-per-file
+    1:38  error    'Op' is assigned a value but never used                            no-unused-vars
+    2:7   error    'JOI' is assigned a value but never used                           no-unused-vars
+    3:7   error    'dayjs' is assigned a value but never used                         no-unused-vars
+   37:5   error    Duplicate key 'classSectionId'                                     no-dupe-keys
+   46:5   error    Duplicate key 'userChildrenId'                                     no-dupe-keys
+   52:5   error    Duplicate key 'applicationId'                                      no-dupe-keys
+  158:1   error    'ApplicationAYClassSectionsSubjectExamMarksReport' is not defined  no-undef
+  206:1   error    'ApplicationAYClassSectionsSubjectExamMarksReport' is not defined  no-undef
+  237:22  error    Expected '===' and instead saw '=='                                eqeqeq
+  237:50  error    Expected '===' and instead saw '=='                                eqeqeq
+  238:22  error    Expected '===' and instead saw '=='                                eqeqeq
+  253:10  warning  Redundant use of `await` on a return value                         no-return-await
+  253:16  error    'ApplicationAYClassSectionsSubjectExamMarksReport' is not defined  no-undef
+  259:3   error    'ApplicationAYClassSectionsSubjectExamMarksReport' is not defined  no-undef
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\models-mssql\validateElementTypeProperty.js
+  23:21  error  Assignment to property of function parameter 'dataIn'  no-param-reassign
+  24:12  error  Assignment to property of function parameter 'dataIn'  no-param-reassign
+  28:5   error  Expected an error object to be thrown                  no-throw-literal
+  31:1   error  This line has a length of 101. Maximum allowed is 100  max-len
+  32:32  error  Expected an error object to be thrown                  no-throw-literal
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\routes\AppData.js
+   6:7   error  'HttpStatus' is assigned a value but never used                no-unused-vars
+   9:7   error  'logger' is assigned a value but never used                    no-unused-vars
+  27:26  error  Expected to return a value at the end of async arrow function  consistent-return
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\routes\PageData.js
+   6:7   error  'HttpStatus' is assigned a value but never used                no-unused-vars
+   9:7   error  'logger' is assigned a value but never used                    no-unused-vars
+  28:26  error  Expected to return a value at the end of async arrow function  consistent-return
+  65:26  error  Expected to return a value at the end of async arrow function  consistent-return
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\routes\academicYearHoliday.js
+   60:9  error  Assignment to function parameter 'dataIn'  no-param-reassign
+   87:9  error  Assignment to function parameter 'dataIn'  no-param-reassign
+  104:9  error  Assignment to function parameter 'dataIn'  no-param-reassign
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\routes\academicYears.js
+   60:9  error  Assignment to function parameter 'dataIn'  no-param-reassign
+   87:9  error  Assignment to function parameter 'dataIn'  no-param-reassign
+  104:9  error  Assignment to function parameter 'dataIn'  no-param-reassign
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\routes\activity.js
+   8:7   error  'logger' is assigned a value but never used   no-unused-vars
+  15:35  error  'getById' is assigned a value but never used  no-unused-vars
+  43:5   error  Assignment to function parameter 'dataIn'     no-param-reassign
+  54:5   error  Assignment to function parameter 'dataIn'     no-param-reassign
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\routes\activityDetail.js
+  14:35  error  'getById' is assigned a value but never used   no-unused-vars
+  39:9   error  'filePath' is assigned a value but never used  no-unused-vars
+  49:5   error  Assignment to function parameter 'dataIn'      no-param-reassign
+  60:5   error  Assignment to function parameter 'dataIn'      no-param-reassign
+  71:5   error  Assignment to function parameter 'dataIn'      no-param-reassign
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\routes\admittedChildren.js
+  8:7  error  'logger' is assigned a value but never used  no-unused-vars
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\routes\app.js
+   8:7   error  'logger' is assigned a value but never used  no-unused-vars
+  15:25  error  'get' is assigned a value but never used     no-unused-vars
+  24:21  error  'err' is not defined                         no-undef
+  39:21  error  'err' is not defined                         no-undef
+  50:5   error  Assignment to function parameter 'dataIn'    no-param-reassign
+  61:5   error  Assignment to function parameter 'dataIn'    no-param-reassign
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\routes\appElement.js
+   8:7  error  'logger' is assigned a value but never used  no-unused-vars
+  66:9  error  Assignment to function parameter 'dataIn'    no-param-reassign
+  93:9  error  Assignment to function parameter 'dataIn'    no-param-reassign
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\routes\appElementProperty.js
+  46:5  error  Assignment to function parameter 'dataIn'  no-param-reassign
+  57:5  error  Assignment to function parameter 'dataIn'  no-param-reassign
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\routes\appUser.js
+   8:7  error  'logger' is assigned a value but never used            no-unused-vars
+  52:1  error  This line has a length of 123. Maximum allowed is 100  max-len
+  52:5  error  Assignment to function parameter 'dataIn'              no-param-reassign
+  65:5  error  Assignment to function parameter 'dataIn'              no-param-reassign
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\routes\appUserLogin.js
+   8:7  error  'logger' is assigned a value but never used  no-unused-vars
+  52:5  error  Assignment to function parameter 'dataIn'    no-param-reassign
+  65:5  error  Assignment to function parameter 'dataIn'    no-param-reassign
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\routes\application.js
+    8:7   error  'logger' is assigned a value but never used                    no-unused-vars
+   15:17  error  'del' is assigned a value but never used                       no-unused-vars
+   35:1   error  This line has a length of 112. Maximum allowed is 100          max-len
+   51:65  error  Expected to return a value at the end of async arrow function  consistent-return
+   52:24  error  Expected '!==' and instead saw '!='                            eqeqeq
+   52:61  error  Expected '!==' and instead saw '!='                            eqeqeq
+   54:5   error  Assignment to function parameter 'dataIn'                      no-param-reassign
+   65:80  error  Expected to return a value at the end of async arrow function  consistent-return
+   66:24  error  Expected '!==' and instead saw '!='                            eqeqeq
+   66:61  error  Expected '!==' and instead saw '!='                            eqeqeq
+   68:5   error  Assignment to function parameter 'dataIn'                      no-param-reassign
+   78:3   error  'reqbody' is not defined                                       no-undef
+   87:5   error  'dataIn' is not defined                                        no-undef
+   87:27  error  'reqbody' is not defined                                       no-undef
+   88:26  error  'dataIn' is not defined                                        no-undef
+   95:4   error  Unexpected tab character                                       no-tabs
+   96:4   error  Unexpected tab character                                       no-tabs
+   97:4   error  Unexpected tab character                                       no-tabs
+   99:1   error  This line has a length of 105. Maximum allowed is 100          max-len
+  105:4   error  Unexpected tab character                                       no-tabs
+  106:4   error  Unexpected tab character                                       no-tabs
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\routes\applicationAYClassSection.js
+   8:7   error  'logger' is assigned a value but never used  no-unused-vars
+  31:24  error  'getById' is not defined                     no-undef
+  42:5   error  Assignment to function parameter 'dataIn'    no-param-reassign
+  59:5   error  Assignment to function parameter 'dataIn'    no-param-reassign
+  70:5   error  Assignment to function parameter 'dataIn'    no-param-reassign
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\routes\applicationAYClassSectionsSubjectExamMarks.js
+   8:7   error  'logger' is assigned a value but never used  no-unused-vars
+  31:24  error  'getById' is not defined                     no-undef
+  42:5   error  Assignment to function parameter 'dataIn'    no-param-reassign
+  59:5   error  Assignment to function parameter 'dataIn'    no-param-reassign
+  70:5   error  Assignment to function parameter 'dataIn'    no-param-reassign
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\routes\applicationAYClassSectionsSubjectExamMarksReport.js
+   8:7   error  'logger' is assigned a value but never used    no-unused-vars
+  15:14  error  'validate' is assigned a value but never used  no-unused-vars
+  15:24  error  'create' is assigned a value but never used    no-unused-vars
+  15:32  error  'update' is assigned a value but never used    no-unused-vars
+  15:40  error  'del' is assigned a value but never used       no-unused-vars
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\routes\applicationAgreementDay.js
+   8:7  error  'logger' is assigned a value but never used  no-unused-vars
+  46:5  error  Assignment to function parameter 'dataIn'    no-param-reassign
+  58:5  error  Assignment to function parameter 'dataIn'    no-param-reassign
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\routes\applicationDocType.js
+  50:17  error  Do not nest ternary expressions                                            no-nested-ternary
+  54:45  error  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  63:5   error  Assignment to function parameter 'dataIn'                                  no-param-reassign
+  75:5   error  Assignment to function parameter 'dataIn'                                  no-param-reassign
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\routes\applicationDocument.js
+  54:19  error  Do not nest ternary expressions                                            no-nested-ternary
+  58:47  error  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  66:7   error  Assignment to function parameter 'dataIn'                                  no-param-reassign
+  81:5   error  Assignment to function parameter 'dataIn'                                  no-param-reassign
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\routes\applicationEmergencyContact.js
+   8:7  error  'logger' is assigned a value but never used  no-unused-vars
+  46:5  error  Assignment to function parameter 'dataIn'    no-param-reassign
+  58:5  error  Assignment to function parameter 'dataIn'    no-param-reassign
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\routes\applicationParent.js
+   8:7  error  'logger' is assigned a value but never used  no-unused-vars
+  46:5  error  Assignment to function parameter 'dataIn'    no-param-reassign
+  58:5  error  Assignment to function parameter 'dataIn'    no-param-reassign
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\routes\applicationPickupPermission.js
+   8:7   error  'logger' is assigned a value but never used  no-unused-vars
+  46:5   error  Assignment to function parameter 'dataIn'    no-param-reassign
+  58:5   error  Assignment to function parameter 'dataIn'    no-param-reassign
+  69:23  error  Expected '===' and instead saw '=='          eqeqeq
+  73:2   error  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  73:3   error  Unexpected tab character                     no-tabs
+  74:2   error  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  74:3   error  Unexpected tab character                     no-tabs
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\routes\applicationScholarship.js
+   8:7   error  'logger' is assigned a value but never used  no-unused-vars
+  31:24  error  'getById' is not defined                     no-undef
+  42:5   error  Assignment to function parameter 'dataIn'    no-param-reassign
+  59:5   error  Assignment to function parameter 'dataIn'    no-param-reassign
+  70:5   error  Assignment to function parameter 'dataIn'    no-param-reassign
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\routes\attendance.js
+   8:7  error  'logger' is assigned a value but never used  no-unused-vars
+  51:7  error  Assignment to function parameter 'dataIn'    no-param-reassign
+  63:5  error  Assignment to function parameter 'dataIn'    no-param-reassign
+  74:5  error  Assignment to function parameter 'dataIn'    no-param-reassign
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\routes\classSectionSyllabusClassCombinations.js
+   8:7  error  'logger' is assigned a value but never used  no-unused-vars
+  41:5  error  Assignment to function parameter 'dataIn'    no-param-reassign
+  58:5  error  Assignment to function parameter 'dataIn'    no-param-reassign
+  69:5  error  Assignment to function parameter 'dataIn'    no-param-reassign
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\routes\classSections.js
+   8:7   error  'logger' is assigned a value but never used  no-unused-vars
+  31:24  error  'getById' is not defined                     no-undef
+  42:5   error  Assignment to function parameter 'dataIn'    no-param-reassign
+  59:5   error  Assignment to function parameter 'dataIn'    no-param-reassign
+  70:5   error  Assignment to function parameter 'dataIn'    no-param-reassign
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\routes\classes.js
+   8:7   error  'logger' is assigned a value but never used  no-unused-vars
+  31:24  error  'getById' is not defined                     no-undef
+  42:5   error  Assignment to function parameter 'dataIn'    no-param-reassign
+  59:5   error  Assignment to function parameter 'dataIn'    no-param-reassign
+  70:5   error  Assignment to function parameter 'dataIn'    no-param-reassign
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\routes\elementType.js
+  30:9  error  Assignment to function parameter 'dataIn'  no-param-reassign
+  47:9  error  Assignment to function parameter 'dataIn'  no-param-reassign
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\routes\elementTypeProperty.js
+  22:5  error  Assignment to function parameter 'dataIn'  no-param-reassign
+  33:5  error  Assignment to function parameter 'dataIn'  no-param-reassign
+  44:5  error  Assignment to function parameter 'dataIn'  no-param-reassign
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\routes\exam.js
+   8:7  error  'logger' is assigned a value but never used  no-unused-vars
+  31:5  error  Assignment to function parameter 'dataIn'    no-param-reassign
+  48:5  error  Assignment to function parameter 'dataIn'    no-param-reassign
+  59:5  error  Assignment to function parameter 'dataIn'    no-param-reassign
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\routes\examGroup.js
+   8:7  error  'logger' is assigned a value but never used  no-unused-vars
+  31:5  error  Assignment to function parameter 'dataIn'    no-param-reassign
+  48:5  error  Assignment to function parameter 'dataIn'    no-param-reassign
+  59:5  error  Assignment to function parameter 'dataIn'    no-param-reassign
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\routes\expenseAccount.js
+   8:7   error  'logger' is assigned a value but never used  no-unused-vars
+  32:24  error  'getById' is not defined                     no-undef
+  43:5   error  Assignment to function parameter 'dataIn'    no-param-reassign
+  60:5   error  Assignment to function parameter 'dataIn'    no-param-reassign
+  71:5   error  Assignment to function parameter 'dataIn'    no-param-reassign
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\routes\expenses.js
+   8:7   error  'logger' is assigned a value but never used  no-unused-vars
+  31:24  error  'getById' is not defined                     no-undef
+  42:5   error  Assignment to function parameter 'dataIn'    no-param-reassign
+  59:5   error  Assignment to function parameter 'dataIn'    no-param-reassign
+  70:5   error  Assignment to function parameter 'dataIn'    no-param-reassign
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\routes\feeReceipt.js
+   8:7  error  'logger' is assigned a value but never used  no-unused-vars
+  51:7  error  Assignment to function parameter 'dataIn'    no-param-reassign
+  63:5  error  Assignment to function parameter 'dataIn'    no-param-reassign
+  74:5  error  Assignment to function parameter 'dataIn'    no-param-reassign
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\routes\localUser.js
+  8:7  error  'logger' is assigned a value but never used  no-unused-vars
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\routes\organization.js
+   8:7   error  'logger' is assigned a value but never used                    no-unused-vars
+  24:21  error  'err' is not defined                                           no-undef
+  46:48  error  Expected to return a value at the end of async arrow function  consistent-return
+  47:24  error  Expected '!==' and instead saw '!='                            eqeqeq
+  47:61  error  Expected '!==' and instead saw '!='                            eqeqeq
+  49:5   error  Assignment to function parameter 'dataIn'                      no-param-reassign
+  60:63  error  Expected to return a value at the end of async arrow function  consistent-return
+  61:24  error  Expected '!==' and instead saw '!='                            eqeqeq
+  61:61  error  Expected '!==' and instead saw '!='                            eqeqeq
+  63:5   error  Assignment to function parameter 'dataIn'                      no-param-reassign
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\routes\organizationLicense.js
+   8:7  error  'logger' is assigned a value but never used  no-unused-vars
+  46:5  error  Assignment to function parameter 'dataIn'    no-param-reassign
+  58:5  error  Assignment to function parameter 'dataIn'    no-param-reassign
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\routes\page.js
+   8:7   error  'logger' is assigned a value but never used  no-unused-vars
+  55:23  error  'err' is not defined                         no-undef
+  75:9   error  Assignment to function parameter 'dataIn'    no-param-reassign
+  93:9   error  Assignment to function parameter 'dataIn'    no-param-reassign
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\routes\pageElement.js
+  46:5  error  Assignment to function parameter 'dataIn'  no-param-reassign
+  57:5  error  Assignment to function parameter 'dataIn'  no-param-reassign
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\routes\pageElementProperty.js
+   8:7  error  'logger' is assigned a value but never used  no-unused-vars
+  46:5  error  Assignment to function parameter 'dataIn'    no-param-reassign
+  57:5  error  Assignment to function parameter 'dataIn'    no-param-reassign
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\routes\pageRole.js
+   8:7   error  'logger' is assigned a value but never used                    no-unused-vars
+  41:41  error  Expected to return a value at the end of async arrow function  consistent-return
+  46:29  error  Expected '===' and instead saw '=='                            eqeqeq
+  58:5   error  Assignment to function parameter 'dataIn'                      no-param-reassign
+  65:43  error  Expected to return a value at the end of async arrow function  consistent-return
+  70:29  error  Expected '===' and instead saw '=='                            eqeqeq
+  81:5   error  Assignment to function parameter 'dataIn'                      no-param-reassign
+  90:26  error  Expected to return a value at the end of async arrow function  consistent-return
+  95:31  error  Expected '===' and instead saw '=='                            eqeqeq
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\routes\pickupPermission.js
+   8:7   error  'logger' is assigned a value but never used  no-unused-vars
+  15:9   error  'create' is assigned a value but never used  no-unused-vars
+  15:17  error  'del' is assigned a value but never used     no-unused-vars
+  42:5   error  Assignment to function parameter 'dataIn'    no-param-reassign
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\routes\role.js
+   8:7   error  'logger' is assigned a value but never used  no-unused-vars
+  44:5   error  Assignment to function parameter 'dataIn'    no-param-reassign
+  57:5   error  Assignment to function parameter 'dataIn'    no-param-reassign
+  57:20  error  'update' is not defined                      no-undef
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\routes\staffAttendance.js
+   8:7  error  'logger' is assigned a value but never used  no-unused-vars
+  68:7  error  Assignment to function parameter 'dataIn'    no-param-reassign
+  80:5  error  Assignment to function parameter 'dataIn'    no-param-reassign
+  91:5  error  Assignment to function parameter 'dataIn'    no-param-reassign
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\routes\staffLeaveRequest.js
+   8:7  error  'logger' is assigned a value but never used  no-unused-vars
+  43:5  error  Assignment to function parameter 'dataIn'    no-param-reassign
+  60:5  error  Assignment to function parameter 'dataIn'    no-param-reassign
+  71:5  error  Assignment to function parameter 'dataIn'    no-param-reassign
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\routes\subjects.js
+   8:7  error  'logger' is assigned a value but never used  no-unused-vars
+  31:5  error  Assignment to function parameter 'dataIn'    no-param-reassign
+  48:5  error  Assignment to function parameter 'dataIn'    no-param-reassign
+  59:5  error  Assignment to function parameter 'dataIn'    no-param-reassign
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\routes\syllabus.js
+   8:7  error  'logger' is assigned a value but never used  no-unused-vars
+  31:5  error  Assignment to function parameter 'dataIn'    no-param-reassign
+  48:5  error  Assignment to function parameter 'dataIn'    no-param-reassign
+  59:5  error  Assignment to function parameter 'dataIn'    no-param-reassign
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\routes\syllabusClassCombination.js
+   8:7   error  'logger' is assigned a value but never used                                                  no-unused-vars
+  15:56  error  Casing of ../models-mssql/SyllabusCLassCombination does not match the underlying filesystem  import/no-unresolved
+  31:5   error  Assignment to function parameter 'dataIn'                                                    no-param-reassign
+  48:5   error  Assignment to function parameter 'dataIn'                                                    no-param-reassign
+  59:5   error  Assignment to function parameter 'dataIn'                                                    no-param-reassign
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\routes\syllabusCombination.js
+   8:7  error  'logger' is assigned a value but never used  no-unused-vars
+  31:5  error  Assignment to function parameter 'dataIn'    no-param-reassign
+  48:5  error  Assignment to function parameter 'dataIn'    no-param-reassign
+  59:5  error  Assignment to function parameter 'dataIn'    no-param-reassign
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\routes\syllabusCombinationSubject.js
+   8:7  error  'logger' is assigned a value but never used  no-unused-vars
+  31:5  error  Assignment to function parameter 'dataIn'    no-param-reassign
+  48:5  error  Assignment to function parameter 'dataIn'    no-param-reassign
+  59:5  error  Assignment to function parameter 'dataIn'    no-param-reassign
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\routes\syllabusCombinationSubjectExam.js
+   8:7  error  'logger' is assigned a value but never used  no-unused-vars
+  31:5  error  Assignment to function parameter 'dataIn'    no-param-reassign
+  48:5  error  Assignment to function parameter 'dataIn'    no-param-reassign
+  59:5  error  Assignment to function parameter 'dataIn'    no-param-reassign
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\routes\syllabusCombinationSubjectExamSchedule.js
+   8:7  error  'logger' is assigned a value but never used  no-unused-vars
+  31:5  error  Assignment to function parameter 'dataIn'    no-param-reassign
+  48:5  error  Assignment to function parameter 'dataIn'    no-param-reassign
+  59:5  error  Assignment to function parameter 'dataIn'    no-param-reassign
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\routes\teachingMedium.js
+   8:7   error  'logger' is assigned a value but never used  no-unused-vars
+  31:24  error  'getById' is not defined                     no-undef
+  42:5   error  Assignment to function parameter 'dataIn'    no-param-reassign
+  59:5   error  Assignment to function parameter 'dataIn'    no-param-reassign
+  70:5   error  Assignment to function parameter 'dataIn'    no-param-reassign
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\routes\tenant.js
+   8:7  error  'logger' is assigned a value but never used  no-unused-vars
+  44:9  error  Assignment to function parameter 'dataIn'    no-param-reassign
+  76:9  error  Assignment to function parameter 'dataIn'    no-param-reassign
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\routes\uploadImage.js
+  28:32  error  Parsing error: Unexpected token .
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\routes\userChildren.js
+   8:7   error  'logger' is assigned a value but never used                    no-unused-vars
+  17:40  error  Expected to return a value at the end of async arrow function  consistent-return
+  46:5   error  Assignment to function parameter 'dataIn'                      no-param-reassign
+  59:5   error  Assignment to function parameter 'dataIn'                      no-param-reassign
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\routes\userFamily.js
+   8:7   error  'logger' is assigned a value but never used                    no-unused-vars
+  17:40  error  Expected to return a value at the end of async arrow function  consistent-return
+  46:5   error  Assignment to function parameter 'dataIn'                      no-param-reassign
+  59:5   error  Assignment to function parameter 'dataIn'                      no-param-reassign
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\routes\userMessage.js
+   8:7   error  'logger' is assigned a value but never used  no-unused-vars
+  49:5   error  Assignment to function parameter 'dataIn'    no-param-reassign
+  61:5   error  Assignment to function parameter 'dataIn'    no-param-reassign
+  61:20  error  'update' is not defined                      no-undef
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\routes\userRole.js
+   8:7   error  'logger' is assigned a value but never used                    no-unused-vars
+  41:41  error  Expected to return a value at the end of async arrow function  consistent-return
+  46:29  error  Expected '===' and instead saw '=='                            eqeqeq
+  46:64  error  Expected '===' and instead saw '=='                            eqeqeq
+  58:5   error  Assignment to function parameter 'dataIn'                      no-param-reassign
+  65:43  error  Expected to return a value at the end of async arrow function  consistent-return
+  70:29  error  Expected '===' and instead saw '=='                            eqeqeq
+  70:64  error  Expected '===' and instead saw '=='                            eqeqeq
+  81:5   error  Assignment to function parameter 'dataIn'                      no-param-reassign
+  90:26  error  Expected to return a value at the end of async arrow function  consistent-return
+  95:31  error  Expected '===' and instead saw '=='                            eqeqeq
+  95:66  error  Expected '===' and instead saw '=='                            eqeqeq
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\routes\userSession.js
+   8:7  error  'logger' is assigned a value but never used  no-unused-vars
+  23:5  error  Assignment to function parameter 'dataIn'    no-param-reassign
+  36:5  error  Assignment to function parameter 'dataIn'    no-param-reassign
+  49:5  error  Assignment to function parameter 'dataIn'    no-param-reassign
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\utils\ErrorResponse.js
+  2:53  error  'success' is assigned a value but never used  no-unused-vars
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\utils\azureBlobClient.js
+   4:37  warning  Unexpected unnamed async function  func-names
+  15:20  warning  Unexpected unnamed async function  func-names
+  21:21  warning  Unexpected unnamed async function  func-names
+  29:19  error    Unexpected `await` inside a loop   no-await-in-loop
+  38:20  warning  Unexpected unnamed async function  func-names
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\utils\azureBlobClients.js
+   4:37  warning  Unexpected unnamed async function  func-names
+  15:20  warning  Unexpected unnamed async function  func-names
+  21:21  warning  Unexpected unnamed async function  func-names
+  29:19  error    Unexpected `await` inside a loop   no-await-in-loop
+  38:20  warning  Unexpected unnamed async function  func-names
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\utils\db_update.js
+  6:11  error  Expected '!==' and instead saw '!='                  eqeqeq
+  6:27  error  Assignment to property of function parameter 'data'  no-param-reassign
+  7:3   error  Assignment to function parameter 'data'              no-param-reassign
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\utils\fileShareClient.js
+   5:35  error    'path' is already declared in the upper scope on line 2 column 7            no-shadow
+  11:7   error    'listFiles' is assigned a value but never used                              no-unused-vars
+  21:20  warning  Unexpected unnamed async function                                           func-names
+  39:21  warning  Unexpected unnamed async function                                           func-names
+  39:37  error    'prefix' is defined but never used. Allowed unused args must match /^_/u    no-unused-vars
+  51:20  warning  Unexpected unnamed async function                                           func-names
+  51:36  error    'blobName' is defined but never used. Allowed unused args must match /^_/u  no-unused-vars
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\utils\http_codes.json
+  2:7  error  Parsing error: Unexpected token :
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\utils\logger.js
+  14:16  warning  Unexpected unnamed function  func-names
+  46:18  warning  Unexpected unnamed function  func-names
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\utils\redis.js
+  5:7  error  Identifier 'redis_url' is not in camel case  camelcase
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\utils\returnStateHandler.js
+   1:7   error    Unexpected dangling '_' in 'HTTP_'                                      no-underscore-dangle
+   4:7   error    'ErrorLogs' is assigned a value but never used                          no-unused-vars
+   6:28  warning  Unexpected unnamed async function                                       func-names
+   6:67  error    'next' is defined but never used. Allowed unused args must match /^_/u  no-unused-vars
+  17:1   error    This line has a length of 115. Maximum allowed is 100                   max-len
+  17:59  error    Assignment to property of function parameter 'returnState'              no-param-reassign
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\utils\sequelize.js
+   6:25  error  Expected '===' and instead saw '=='                    eqeqeq
+   7:9   error  Identifier 'sql_config' is not in camel case           camelcase
+  29:1   error  This line has a length of 145. Maximum allowed is 100  max-len
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\utils\storageUtils.js
+   2:58  error  Expected '===' and instead saw '=='  eqeqeq
+   3:51  error  Unexpected require()                 global-require
+  10:51  error  Unexpected require()                 global-require
+
+C:\Users\soma\Downloads\Soma\TechRepos\School\rest-api\src\utils\utils.js
+  4:14  error  Assignment to property of function parameter 'obj'  no-param-reassign
+
+✖ 1236 problems (1083 errors, 153 warnings)
+

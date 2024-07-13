@@ -1,0 +1,11 @@
+{
+  "port": 8101,
+  "JSON_SIZE_LIMIT": "10mb",
+  "sequelize_config": {
+    "max": 5,
+    "min": 0,
+    "acquire": 30000,
+    "idle": 1000
+  },
+  "cors_origin": "http://localhost:3000"
+}

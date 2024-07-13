@@ -1,0 +1,51 @@
+{
+  "validData": {
+    "tenantId": "tenant1",
+    "appId": "app1",
+    "orgId": "00000000-0000-0000-0000-000000000001",
+    "academicYearId": "00000000-0000-0000-0000-000000000001",
+    "academicYearHolidayName": "Summer Break",
+    "academicYearHolidayType": 1,
+    "academicYearHolidayDate": "2024-07-01T00:00:00.000Z"
+  },
+  "savedData": {
+    "academicYearHolidayId": "00000000-0000-0000-0000-000000000001",
+    "tenantId": "tenant1",
+    "appId": "app1",
+    "orgId": "00000000-0000-0000-0000-000000000001",
+    "academicYearId": "00000000-0000-0000-0000-000000000001",
+    "academicYearHolidayName": "Summer Break",
+    "academicYearHolidayType": 1,
+    "academicYearHolidayDate": "2024-07-01T00:00:00.000Z",
+    "createdDateTime": "2024-01-01T00:00:00.000Z",
+    "lastUpdatedDateTime": "2024-01-01T00:00:00.000Z"
+  },
+  "updateData": {
+    "academicYearHolidayId": "00000000-0000-0000-0000-000000000001",
+    "academicYearHolidayName": "Updated Summer Break",
+    "academicYearHolidayType": 2
+  },
+  "validDataWithDateRange": {
+    "tenantId": "tenant1",
+    "appId": "app1",
+    "orgId": "00000000-0000-0000-0000-000000000001",
+    "academicYearId": "00000000-0000-0000-0000-000000000002",
+    "academicYearHolidayName": "Winter Break",
+    "academicYearHolidayType": 1,
+    "academicYearHolidayFromDate": "2024-12-20T00:00:00.000Z",
+    "academicYearHolidayToDate": "2025-01-05T00:00:00.000Z",
+    "weekDay": "Monday"
+  },
+  "query": {
+      "tenantId": "tenant1",
+      "appId": "app1",
+      "orgId": "org1",
+      "page": 1,
+      "limit": 10,
+      "search": "",
+      "filters": {},
+      "sortBy": "academicYearHolidayDate",
+      "sortOrder": "ASC",
+      "roleId": "role1"
+    }
+}

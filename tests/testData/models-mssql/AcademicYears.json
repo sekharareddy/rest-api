@@ -1,0 +1,46 @@
+{
+  "validData": {
+    "academicYearName": "2023-2024",
+    "academicYearStartDate": "2023-08-01",
+    "academicYearEndDate": "2024-05-31",
+    "orgId": "org123",
+    "tenantId": "tenant123",
+    "appId": "app123"
+  },
+  "savedData": {
+    "academicYearId": "00000000-0000-0000-0000-000000000001",
+    "academicYearName": "2023-2024",
+    "academicYearStartDate": "2023-08-01",
+    "academicYearEndDate": "2024-05-31",
+    "orgId": "org123",
+    "tenantId": "tenant123",
+    "appId": "app123",
+    "createdDateTime": "2023-05-01T00:00:00.000Z",
+    "lastUpdatedDateTime": "2024-01-01T00:00:00.000Z"
+  },
+  "updateData": {
+    "academicYearId": "00000000-0000-0000-0000-000000000001",
+    "academicYearName": "2023-2024 updatedName",
+    "academicYearStartDate": "2023-08-01",
+    "academicYearEndDate": "2024-05-31",
+    "orgId": "org123",
+    "tenantId": "tenant123",
+    "appId": "app123",
+    "createdDateTime": "2023-05-01T00:00:00.000Z",
+    "lastUpdatedDateTime": "2024-01-01T00:00:00.000Z"
+  },
+  "query": {
+    "orgId": "org123",
+    "tenantId": "tenant123",
+    "appId": "app123",
+    "search": "2023",
+    "page": 1,
+    "limit": 10,
+    "filters": {
+      "status": "active"
+    },
+    "sortBy": "startDate",
+    "sortOrder": "DESC",
+    "roleId": "staffRoleId"
+  }
+}

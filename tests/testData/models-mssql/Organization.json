@@ -1,0 +1,57 @@
+{
+  "validData": {
+    "orgName": "Test Organization",
+    "orgStreetAddress": "123 Test Street",
+    "orgCity": "Test City",
+    "orgState": "Test State",
+    "orgZipCode": "12345",
+    "orgCellphone": "1234567890",
+    "orgHomephone": "0987654321",
+    "orgAltPhone": "1112223333",
+    "orgEmail": "test@example.com",
+    "orgHeader": "Test Header",
+    "tenantId": "tenant123",
+    "appId": "app123",
+    "lastUpdateDateTime": "2024-06-07T12:00:00Z",
+    "rowFormData": [
+      {
+        "licenseId": "license1",
+        "licenseName": "Test License 1",
+        "expirationDate": "2024-12-31T23:59:59Z"
+      },
+      {
+        "licenseId": "license2",
+        "licenseName": "Test License 2",
+        "expirationDate": "2025-06-30T23:59:59Z"
+      }
+    ]
+  },
+  "savedData": {
+    "orgId": "org123",
+    "orgName": "Test Organization",
+    "orgStreetAddress": "123 Test Street",
+    "orgCity": "Test City",
+    "orgState": "Test State",
+    "orgZipCode": "12345",
+    "orgCellphone": "1234567890",
+    "orgHomephone": "0987654321",
+    "orgAltPhone": "1112223333",
+    "orgEmail": "test@example.com",
+    "orgHeader": "Test Header",
+    "tenantId": "tenant123",
+    "appId": "app123",
+    "lastUpdatedDateTime": "2024-06-07T12:00:00Z",
+    "rowFormData": [
+      {
+        "licenseId": "license1",
+        "licenseName": "Test License 1",
+        "expirationDate": "2024-12-31T23:59:59Z"
+      },
+      {
+        "licenseId": "license2",
+        "licenseName": "Test License 2",
+        "expirationDate": "2025-06-30T23:59:59Z"
+      }
+    ]
+  }
+}

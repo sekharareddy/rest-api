@@ -1,6 +1,7 @@
 const { Sequelize, DataTypes, Model, Op } = require('sequelize');
 const sequelize = require('../utils/sequelize');
 const JOI = require('joi');
+const SqlString = require('sqlstring')
 
 class ApplicationAYClassSection extends Model {
 }
@@ -159,7 +160,7 @@ const get = async (qry, user) => {
     //   }
     // )
     let sql = "Select * from vw_applicationAYClassSections where orgId = '" + qry.orgId + "' "
-    if (qry.hasOwnProperty('active') & qry.active == 0)
+    if (qry.hasOwnProperty('active') && qry.active == 0)
         sql = sql + " and endDate is not null "
     else
         sql = sql + " and endDate is null "
@@ -167,7 +168,7 @@ const get = async (qry, user) => {
     if (qry.applicationId) sql = sql + " and applicationId = '" + qry.applicationId + "' "
     if (qry.academicYearId) sql = sql + " and academicYearId = '" + qry.academicYearId + "' "
     if (qry.classSectionId) sql = sql + " and classSectionId = '" + qry.classSectionId + "' "
-    return await sequelize.query(sql, { type: sequelize.QueryTypes.SELECT });    
+    return await sequelize.query(SqlString.escape(sql), { type: sequelize.QueryTypes.SELECT });
 }
 
 const validate = async (dataIn, id = null) => {
@@ -176,7 +177,7 @@ const validate = async (dataIn, id = null) => {
         delete dataIn['endDate']
     const { error, value } = joiSchema.validate(dataIn, JOIvalidationOptions);
     if (error) {
-        throw `Validation error: ${error.details.map(x => x.message).join(', ')}`;
+        throw new Error(`Validation error: ${error.details.map(x => x.message).join(', ')}`);
     } else {
         // validate foreign keys and any other business requiremets
         if (!dataIn.applicationAYClassSectionId) {    // POST call validation
@@ -189,7 +190,7 @@ const validate = async (dataIn, id = null) => {
                 }
             });
             if (recs && recs.length > 0) {
-                throw `Validation error: valid classSection/AcademicYear record for the applicationId exists!`;
+                throw new Error(`Validation error: valid classSection/AcademicYear record for the applicationId exists!`);
             }
         }
         if (dataIn.ApplicationAYClassSectionRollNumber) {
@@ -203,7 +204,7 @@ const validate = async (dataIn, id = null) => {
             });
             if (recs && recs.length > 0) {
                 if (recs[0].dataValues.applicationId != dataIn.applicationId)
-                    throw `Validation error: ApplicationAYClassSectionRollNumber already assigned to another student!`;
+                    throw new Error (`Validation error: ApplicationAYClassSectionRollNumber already assigned to another student!`);
             }
         }
 

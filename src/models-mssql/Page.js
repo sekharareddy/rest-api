@@ -424,8 +424,7 @@ const validate = async (dataIn, qry, id = null) => {
 
   const { error, value } = joiSchema.validate(dataIn, JOIvalidationOptions);
   if (error) {
-    console.log(dataIn, id);
-    throw `Validation error: ${error.details.map((x) => x.message).join(", ")}`;
+    throw new Error(`Validation error: ${error.details.map((x) => x.message).join(", ")}`);
   } else {
     // validate foreign keys and any other business requiremets
     // const tenant = await Tenant.findOne({where:{tenantId:value.tenantId}});

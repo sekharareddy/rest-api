@@ -6,6 +6,7 @@ const path = require("path");
 const cors = require("cors");
 const helmet = require("helmet");
 const morgan = require("morgan");
+const RateLimit = require('express-rate-limit');
 const swaggerUI = require("swagger-ui-express");
 const specs = require("./src/utils/swagger");
 const sequelize = require("./src/utils/sequelize");
@@ -25,17 +26,29 @@ const { auth } = require("./src/middleware/auth");
 
 /// /// END REQUIRE DECLARATION SECTION //////
 
+// set up rate limiter: maximum of five requests per minute
+const limiter = RateLimit({
+  windowMs: 15 * 60 * 1000, // 15 minutes
+  max: 100, // max 100 requests per windowMs
+});
+
+
 const app = express();
 app.set("port", process.env.port || 54321); //
 
 app.use(express.json({ limit: "1mb" }));
 app.use(express.urlencoded({ extended: true }));
 
+
 // CORS Middleware
 
 /// /// END WEB SERVER INSTANTIATION AND CONFIGURATION SECTION //////
 
 try {
+  
+  // apply rate limiter to all requests
+  app.use(limiter);
+
   // CORS
   const corsOptions = {
     origin: true,
@@ -180,7 +193,7 @@ try {
     next({ error: "Page NOT FOUND", success: false, status: HTTP.NOT_FOUND });
   }, returnStateHandler);
 
-  // TODO UnHANDLED Exception -> Verify Key
+  // Uncaught Exception
   process.on("uncaughtException", (error) => {
     logger.error("Uncaught exception", error.message);
     logger.error(error);
